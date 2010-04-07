@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>827cbb04-0469-4d33-a706-de73aa668ef2</ProjectGuid>
+    <ProjectGuid>{1802B58E-4F39-45AB-9577-5E2E84BAB9E4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CommandletClient</RootNamespace>
