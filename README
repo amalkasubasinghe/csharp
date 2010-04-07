@@ -1,0 +1,9 @@
+
+The interface
+==============
+
+
+AddBook(Book):boolean
+UpdateBook(Book):boolean
+DeleteBook(String isbn):boolean
+GetBook(String isbn):Book

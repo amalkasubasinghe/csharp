@@ -1,0 +1,29 @@
+CVS
+
+# Backup files
+*~
+\#*
+.#*
+*$
+*.bak
+*.BAK
+*.swp
+
+# Common build results
+.depend
+*.[ao]
+*.exe
+*.lib
+*.manifest
+*.obj
+*.pdb
+*.pyc
+*.so
+
+# Patch spam
+*.orig
+*.rej
+
+# fbuild spam
+.complete
+.phases
