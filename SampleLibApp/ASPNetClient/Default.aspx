@@ -7,6 +7,32 @@
     <title>Untitled Page</title>
 </head>
 <body>
+    <h1>Charmain's Liberary</h1>
+    <a href="">Manage Books</a> | <a href="">Manage Employees</a>
+    
+    <table border="1">
+        <tr>
+            <th>Book Id</th>
+            <th>Name</th>            
+            <th>Borrowed by</th>
+            <th>Borrowed Date</th>            
+            <th>Action</th>
+        </tr>
+        <tr>            
+            <td>1</td>
+            <td>Wicket In Action</td>
+            <td>Amalka Subasinghe</td>
+            <td>2010-04-08</td>            
+            <td><a href="">Return</a></td>
+        </tr> 
+        <tr>            
+            <td>2</td>
+            <td>Struts In Action</td>            
+            <td></td>
+            <td></td>            
+            <td><a href="">Issue</a></td>
+        </tr> 
+    </table>
     <form id="form1" runat="server">
     <div>
     

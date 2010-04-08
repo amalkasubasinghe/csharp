@@ -11,7 +11,7 @@
 namespace ASPNetClient {
     
     
-    public partial class _Default {
+    public partial class manage_books {
         
         /// <summary>
         /// form1 control.

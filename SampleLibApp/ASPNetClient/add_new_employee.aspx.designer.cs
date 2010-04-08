@@ -11,7 +11,7 @@
 namespace ASPNetClient {
     
     
-    public partial class _Default {
+    public partial class add_new_employee {
         
         /// <summary>
         /// form1 control.

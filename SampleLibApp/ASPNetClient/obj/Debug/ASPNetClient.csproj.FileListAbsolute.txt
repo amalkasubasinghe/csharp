@@ -1,0 +1,5 @@
+D:\csharp-handson\csharp\SampleLibApp\ASPNetClient\bin\ASPNetClient.dll
+D:\csharp-handson\csharp\SampleLibApp\ASPNetClient\bin\ASPNetClient.pdb
+D:\csharp-handson\csharp\SampleLibApp\ASPNetClient\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\csharp\SampleLibApp\ASPNetClient\obj\Debug\ASPNetClient.dll
+D:\csharp-handson\csharp\SampleLibApp\ASPNetClient\obj\Debug\ASPNetClient.pdb

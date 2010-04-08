@@ -1,0 +1,6 @@
+D:\csharp-handson\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.dll.config
+D:\csharp-handson\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.dll
+D:\csharp-handson\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.pdb
+D:\csharp-handson\csharp\SampleLibApp\WCFServer\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.dll
+D:\csharp-handson\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.pdb

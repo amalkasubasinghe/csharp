@@ -1,0 +1,5 @@
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.dll
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.pdb
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.dll
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.pdb
