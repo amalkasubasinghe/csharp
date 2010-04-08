@@ -5,5 +5,21 @@ The interface
 
 AddBook(Book):boolean
 UpdateBook(Book):boolean
-DeleteBook(String isbn):boolean
-GetBook(String isbn):Book
+DeleteBook(String id):boolean
+GetBook(int id):Book
+
+
+AddEmployee(Employee):boolean
+UpdateEmployee(Employee):boolean
+DeleteEmployee(int id):boolean
+GetEmployee(int id):Employee
+
+borrowBook(int bookId, int empId, Date borrowedDate):boolean
+returnBook(BorrowingRecord br):boolean
+getLastBorrowingRecord(int book_id):BorrowingRecord
+
+Table structure
+===============
+book(id, name, author, description)
+employee(id, name)
+borrowings(book_id, emp_id, borrowed_date, returned_date)
