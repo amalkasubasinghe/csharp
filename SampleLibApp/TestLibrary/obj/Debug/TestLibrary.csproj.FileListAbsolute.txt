@@ -3,3 +3,8 @@ C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.pdb
 C:\project\A_project\csharp\SampleLibApp\TestLibrary\obj\Debug\ResolveAssemblyReference.cache
 C:\project\A_project\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.dll
 C:\project\A_project\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.pdb
+D:\csharp-handson\csharp\SampleLibApp\TestLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.dll
+D:\csharp-handson\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.pdb
+D:\csharp-handson\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll
+D:\csharp-handson\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.pdb

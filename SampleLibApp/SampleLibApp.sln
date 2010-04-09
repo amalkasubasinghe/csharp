@@ -17,12 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 		SampleLibApp.vsmdi = SampleLibApp.vsmdi
+		SampleLibApp1.vsmdi = SampleLibApp1.vsmdi
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolDATest", "ConsolDATest\ConsolDATest.csproj", "{E02F7B4E-8661-41FA-BC25-05B454E5DBDC}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = SampleLibApp.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -52,6 +52,10 @@ Global
 		{6F8CA4AE-145E-46BF-AC23-624F06AC3439}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F8CA4AE-145E-46BF-AC23-624F06AC3439}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F8CA4AE-145E-46BF-AC23-624F06AC3439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02F7B4E-8661-41FA-BC25-05B454E5DBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02F7B4E-8661-41FA-BC25-05B454E5DBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02F7B4E-8661-41FA-BC25-05B454E5DBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02F7B4E-8661-41FA-BC25-05B454E5DBDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

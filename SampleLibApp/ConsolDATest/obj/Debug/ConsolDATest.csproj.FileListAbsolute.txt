@@ -1,0 +1,5 @@
+D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\bin\Debug\ConsolDATest.exe
+D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\bin\Debug\ConsolDATest.pdb
+D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\obj\Debug\ConsolDATest.exe
+D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\obj\Debug\ConsolDATest.pdb
