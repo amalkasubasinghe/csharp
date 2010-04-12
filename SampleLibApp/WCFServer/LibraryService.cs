@@ -16,12 +16,13 @@ namespace WCFServer
         public bool AddBook(Book b)
         {
             //TODO: Fix this
-            return true;
+            return false;
         }
 
         public bool UpdateBook(Book b)
         {
-            throw new NotImplementedException();
+            //TODO: Fix this
+            return true;
         }
 
         public bool DeleteBook(Book b)

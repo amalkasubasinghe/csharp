@@ -8,3 +8,6 @@ D:\csharp-handson\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.dll
 D:\csharp-handson\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.pdb
 D:\csharp-handson\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll
 D:\csharp-handson\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.pdb
+C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll.config
+C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\WCFClientAPI.dll
+C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\WCFClientAPI.pdb

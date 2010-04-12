@@ -4,3 +4,9 @@ D:\csharp-handson\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.pdb
 D:\csharp-handson\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.dll.config
 D:\csharp-handson\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.dll
 D:\csharp-handson\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.dll.config
+C:\project\A_project\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.pdb
+C:\project\A_project\csharp\SampleLibApp\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\project\A_project\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="d9c32e00-b952-450e-b6d5-fb6e8f63b212" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8731/Design_Time_Addresses/WCFServer/LibraryService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="92914901-b7c5-470e-b0bc-675d03a90da7" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/WCFServer/LibraryService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="aa8de355-b0b7-4af6-b5b4-55eb895d239a" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/WCFServer/LibraryService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="08774aa8-ac29-44ec-b4ca-fd38667b60b0" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/WCFServer/LibraryService/mex" />
+    <MetadataFile FileName="WCFServer.xsd" MetadataType="Schema" ID="f8d61685-8515-4ae0-aff7-032cb03f1a33" SourceId="1" SourceUrl="http://localhost:8731/Design_Time_Addresses/WCFServer/LibraryService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

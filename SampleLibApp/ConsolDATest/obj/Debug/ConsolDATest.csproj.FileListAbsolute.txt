@@ -3,3 +3,8 @@ D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\bin\Debug\ConsolDATest.exe
 D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\bin\Debug\ConsolDATest.pdb
 D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\obj\Debug\ConsolDATest.exe
 D:\csharp-handson\csharp\SampleLibApp\ConsolDATest\obj\Debug\ConsolDATest.pdb
+C:\project\A_project\csharp\SampleLibApp\ConsolDATest\bin\Debug\ConsolDATest.exe
+C:\project\A_project\csharp\SampleLibApp\ConsolDATest\bin\Debug\ConsolDATest.pdb
+C:\project\A_project\csharp\SampleLibApp\ConsolDATest\obj\Debug\ResolveAssemblyReference.cache
+C:\project\A_project\csharp\SampleLibApp\ConsolDATest\obj\Debug\ConsolDATest.exe
+C:\project\A_project\csharp\SampleLibApp\ConsolDATest\obj\Debug\ConsolDATest.pdb

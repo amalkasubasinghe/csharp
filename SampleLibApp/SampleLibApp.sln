@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServer", "WCFServer\WCFServer.csproj", "{37A25D0F-F9F1-4BF2-8C59-FD701637ED1A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClientAPI", "WCFClientAPI\WCFClientAPI.csproj", "{B0959175-9864-4276-A487-3CBD3F5C8234}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37A25D0F-F9F1-4BF2-8C59-FD701637ED1A} = {37A25D0F-F9F1-4BF2-8C59-FD701637ED1A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{42EB4D38-35C4-4039-B6EE-79201CD7EC99}"
 EndProject
@@ -12,17 +15,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetClient", "ASPNetClient\ASPNetClient.csproj", "{E306E410-9C40-4C5F-9648-D681FA3DB19D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{6F8CA4AE-145E-46BF-AC23-624F06AC3439}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37A25D0F-F9F1-4BF2-8C59-FD701637ED1A} = {37A25D0F-F9F1-4BF2-8C59-FD701637ED1A}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6D3317F-6582-4EC3-BA24-95439601DF2C}"
 	ProjectSection(SolutionItems) = preProject
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
 		SampleLibApp.vsmdi = SampleLibApp.vsmdi
 		SampleLibApp1.vsmdi = SampleLibApp1.vsmdi
+		SampleLibApp2.vsmdi = SampleLibApp2.vsmdi
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolDATest", "ConsolDATest\ConsolDATest.csproj", "{E02F7B4E-8661-41FA-BC25-05B454E5DBDC}"
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SampleLibApp2.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

@@ -3,3 +3,9 @@ D:\csharp-handson\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.pdb
 D:\csharp-handson\csharp\SampleLibApp\WCFClientAPI\obj\Debug\ResolveAssemblyReference.cache
 D:\csharp-handson\csharp\SampleLibApp\WCFClientAPI\obj\Debug\WCFClientAPI.dll
 D:\csharp-handson\csharp\SampleLibApp\WCFClientAPI\obj\Debug\WCFClientAPI.pdb
+C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\obj\Debug\ResolveAssemblyReference.cache
+C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\obj\Debug\WCFClientAPI.dll
+C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll.config
+C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll
+C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.pdb
+C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\obj\Debug\WCFClientAPI.pdb
