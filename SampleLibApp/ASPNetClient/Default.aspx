@@ -8,17 +8,20 @@
 </head>
 <body>
     <h1>Charmain's Liberary</h1>
-    <a href="">Manage Books</a> | <a href="">Manage Employees</a>
+    <a href="">Add New Book</a>
     
     <table border="1">
         <tr>
-            <th>Book Id</th>
+            <th>ISBN</th>
             <th>Name</th>            
+            <th>Author</th>  
+            <th>Description</th>  
             <th>Borrowed by</th>
             <th>Borrowed Date</th>            
             <th>Action</th>
         </tr>
-        <tr>            
+        <tr> 
+                   
             <td>1</td>
             <td>Wicket In Action</td>
             <td>Amalka Subasinghe</td>

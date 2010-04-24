@@ -4,6 +4,9 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using DataAccess;
+using CommonClassLibrary;
+
 
 namespace WCFServer
 {
@@ -13,28 +16,47 @@ namespace WCFServer
 
         #region ILibraryService Members
 
-        public bool AddBook(Book b)
+        public List<Book> GetAllBooks()
         {
-            //TODO: Fix this
-            return false;
+            IDataAccessService das = new DataAccessService();
+            return das.GetAllBooks();
         }
 
-        public bool UpdateBook(Book b)
+        public Book GetBook(string isbn)
         {
-            //TODO: Fix this
-            return true;
+            IDataAccessService das = new DataAccessService();
+            return das.GetBook(isbn);
         }
 
-        public bool DeleteBook(Book b)
+        public bool AddNewBook(Book book)
         {
-            throw new NotImplementedException();
+            IDataAccessService das = new DataAccessService();
+            return das.AddNewBook(book);            
         }
 
-        public Book GetBook(int id)
+        public bool UpdateBook(Book book)
         {
-            throw new NotImplementedException();
+            IDataAccessService das = new DataAccessService();
+            return das.UpdateBook(book);        
         }
 
+        public bool DeleteBook(string isbn)
+        {
+            IDataAccessService das = new DataAccessService();
+            return das.DeleteBook(isbn);   
+        }
+
+        public bool IssueBook(string isbn, string empName)
+        {
+            IDataAccessService das = new DataAccessService();
+            return das.IssueBook(isbn, empName);   
+        }
+
+        public bool ReturnBook(string isbn)
+        {
+            IDataAccessService das = new DataAccessService();
+            return das.ReturnBook(isbn);   
+        }
         #endregion
     }
 }

@@ -3,36 +3,106 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
+using CommonClassLibrary;
 
 namespace DataAccess
 {
-    class DataAccessService : IDataAccessService 
+    public class DataAccessService : IDataAccessService 
     {
         private SqlConnection conn = null;        
 
         public DataAccessService() 
-        {
-            // 1. Instantiate the connection
+        {            
             conn = new SqlConnection("Data Source=localhost\\SQLEXPRESS;Initial Catalog=csharp-db;Integrated Security=True;Pooling=False");
         }
 
-        public bool insertNewBook(Book book) 
-        {            
+        public List<Book> GetAllBooks()
+        {
+            SqlDataReader rdr = null;
+            List<Book> books = new List<Book>();
+
             try
-            {
-                // 2. Open the connection
-                conn.Open();
+            {                
+                conn.Open();                
+                SqlCommand cmd = new SqlCommand("select * from tbl_book", conn);
+                rdr = cmd.ExecuteReader();
+                
+                
+                while (rdr.Read())
+                {
+                    Book b = new Book();
+                    b.Isbn = (string)rdr[0];
+                    b.Name = (string)rdr[1];
+                    b.Author = (string)rdr[2];
+                    b.Description = (string)rdr[3];
+                    b.Borrowed_by = (string)rdr[4];
+                    b.Borrowed_date = (string)rdr[5];
 
-                // 3. Pass the connection to a command object                
-                string insertString = @"insert into tbl_book(id, name, author, description) values ('"+book.Id+"', '"+book.Name+"', '"+book.Author+"', '"+book.Description+"')";              
-                SqlCommand cmd = new SqlCommand(insertString, conn);
+                    books.Add(b);
+                }
 
-                // execute the command
-                cmd.ExecuteNonQuery();
             }
             finally
             {
-                // 5. Close the connection
+                if (rdr != null) 
+                {
+                    rdr.Close();                        
+                }                
+                if (conn != null)
+                {
+                    conn.Close();
+                }
+            }
+            return books;   
+        }
+
+        public Book GetBook(string isbn) 
+        {
+            SqlDataReader rdr = null;
+            Book book = new Book();
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand("select * from tbl_book where isbn = '"+isbn+"'", conn);
+                rdr = cmd.ExecuteReader();
+
+                
+                while (rdr.Read())
+                {
+                    book.Isbn = (string)rdr[0];
+                    book.Name = (string)rdr[1];
+                    book.Author = (string)rdr[2];
+                    book.Description = (string)rdr[3];
+                    book.Borrowed_by = (string)rdr[4];
+                    book.Borrowed_date = (string)rdr[5];                    
+                }
+
+            }
+            finally
+            {
+                if (rdr != null)
+                {
+                    rdr.Close();
+                }
+                if (conn != null)
+                {
+                    conn.Close();
+                }
+            }
+            return book;      
+        }
+
+        public bool AddNewBook(Book book) 
+        {            
+            try
+            {                
+                conn.Open();                
+                string insertString = @"insert into tbl_book(id, name, author, description) values ('"+book.Isbn+"', '"+book.Name+"', '"+book.Author+"', '"+book.Description+"')";              
+                SqlCommand cmd = new SqlCommand(insertString, conn);                
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {                
                 if (conn != null)
                 {
                     conn.Close();
@@ -41,23 +111,55 @@ namespace DataAccess
             return true;
         }
 
-        public bool insertNewEmployee(Employee employee)
+        public bool UpdateBook(Book book)
         {
             try
-            {
-                // 2. Open the connection
-                conn.Open();
-
-                // 3. Pass the connection to a command object                
-                string insertString = @"insert into tbl_employee(id, name) values ('" + employee.Id + "', '" + employee.Name + "')";
-                SqlCommand cmd = new SqlCommand(insertString, conn);
-
-                // execute the command
+            {                
+                conn.Open();                
+                string updateString = @"update tbl_book set name = '"+book.Name+"', author = '"+book.Author+"', description = '"+book.Description+"' where isbn = '"+book.Isbn+"'";
+                SqlCommand cmd = new SqlCommand(updateString, conn);                
                 cmd.ExecuteNonQuery();
             }
             finally
-            {
-                // 5. Close the connection
+            {                
+                if (conn != null)
+                {
+                    conn.Close();
+                }
+            }
+            return true;
+        }
+
+        public bool DeleteBook(string isbn)
+        {
+            try
+            {                
+                conn.Open();                
+                string deleteString = @"delete from tbl_book where isbn = '"+isbn+"'";
+                SqlCommand cmd = new SqlCommand(deleteString, conn);                
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {                
+                if (conn != null)
+                {
+                    conn.Close();
+                }
+            }
+            return true;
+        }
+
+        public bool IssueBook(string isbn, string empName)
+        {
+            try
+            {                
+                conn.Open();                                
+                string issueString = @"update tbl_book set borrowed_by = '" + empName + "', borrowed_date = '" + new DateTime() + "' where isbn = '" + isbn + "'";
+                SqlCommand cmd = new SqlCommand(issueString, conn);                
+                cmd.ExecuteNonQuery();
+            }
+            finally
+            {                
                 if (conn != null)
                 {
                     conn.Close();
@@ -66,54 +168,23 @@ namespace DataAccess
             return true;    
         }
 
-        public bool issueBook(String bookId, String employeeId)
+        public bool ReturnBook(string isbn)
         {
             try
-            {
-                // 2. Open the connection
+            {                
                 conn.Open();
-
-                // 3. Pass the connection to a command object                
-                string insertString = @"insert into tbl_borrowings(book_id, employee_id, borrowed_date, returned_date) values ('" + bookId+ "', '" + employeeId + "','"+new DateTime()+"','')";
-                SqlCommand cmd = new SqlCommand(insertString, conn);
-
-                // execute the command
+                string returnString = @"update tbl_book set borrowed_by = '', borrowed_date = '' where isbn = '" + isbn + "'";
+                SqlCommand cmd = new SqlCommand(returnString, conn);                
                 cmd.ExecuteNonQuery();
             }
             finally
-            {
-                // 5. Close the connection
+            {                
                 if (conn != null)
                 {
                     conn.Close();
                 }
             }
             return true;     
-        }
-
-        public bool returnBook(String bookId) 
-        {
-            try
-            {
-                // 2. Open the connection
-                conn.Open();
-
-                // 3. Pass the connection to a command object 
-                string updateString = @"update tbl_borrowings set returned_date = '" + new DateTime() + "' where book_id = '"+bookId+"' and returned_date = ''";                
-                SqlCommand cmd = new SqlCommand(updateString, conn);
-                
-                // execute the command
-                cmd.ExecuteNonQuery();
-            }
-            finally
-            {
-                // 5. Close the connection
-                if (conn != null)
-                {
-                    conn.Close();
-                }
-            }
-            return true;      
         }
     }
 }

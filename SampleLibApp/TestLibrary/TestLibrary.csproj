@@ -79,6 +79,10 @@
     <WCFMetadataStorage Include="Service References\LibraryService\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\CommonClassLibrary.csproj">
+      <Project>{B1D444E6-C3D0-420A-96E4-73A2E51B3D2D}</Project>
+      <Name>CommonClassLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WCFClientAPI\WCFClientAPI.csproj">
       <Project>{B0959175-9864-4276-A487-3CBD3F5C8234}</Project>
       <Name>WCFClientAPI</Name>

@@ -9,3 +9,6 @@ C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll
 C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll
 C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.pdb
 C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\obj\Debug\WCFClientAPI.pdb
+D:\csharp-handson\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll.config
+D:\csharp-handson\csharp\SampleLibApp\WCFClientAPI\bin\Debug\ClassLibrary1.dll
+D:\csharp-handson\csharp\SampleLibApp\WCFClientAPI\bin\Debug\ClassLibrary1.pdb

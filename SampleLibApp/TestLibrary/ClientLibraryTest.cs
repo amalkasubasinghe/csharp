@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WCFClientAPI;
-using WCFClientAPI.LibraryService;
+using CommonClassLibrary;
+
 
 namespace TestLibrary
 {
@@ -66,7 +67,7 @@ namespace TestLibrary
         {
             LibraryClient lc = new LibraryClient();
             Book b = new Book();
-            Assert.IsTrue(lc.AddBook(b));
+            Assert.IsTrue(lc.AddNewBook(b));
 
         }
     }

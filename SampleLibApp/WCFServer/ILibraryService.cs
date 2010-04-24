@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using CommonClassLibrary;
 
 namespace WCFServer
 {
@@ -12,53 +13,24 @@ namespace WCFServer
     public interface ILibraryService
     {
         [OperationContract]
-        bool AddBook(Book b);
+        List<Book> GetAllBooks();
 
         [OperationContract]
-        bool UpdateBook(Book b);
+        Book GetBook(string isbn);
 
         [OperationContract]
-        bool DeleteBook(Book b);
+        bool AddNewBook(Book book);
 
         [OperationContract]
-        Book GetBook(int id);
-    }
+        bool UpdateBook(Book book);
 
-    // Use a data contract as illustrated in the sample below to add composite types to service operations
-    [DataContract]
-    public class Book
-    {
-        int id = 0;
-        string name = "";
-        string author = "";
-        string discription = "";
+        [OperationContract]
+        bool DeleteBook(string isbn);
 
-        [DataMember]
-        public int Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
+        [OperationContract]
+        bool IssueBook(string isbn, string empName);
 
-        [DataMember]
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-
-        [DataMember]
-        public string Author
-        {
-            get { return author; }
-            set { author = value; }
-        }
-
-        [DataMember]
-        public string Discription
-        {
-            get { return discription; }
-            set { discription = value; }
-        }
-    }
+        [OperationContract]
+        bool ReturnBook(string isbn);
+    } 
 }

@@ -2,37 +2,52 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WCFClientAPI.LibraryService;
+using CommonClassLibrary;
 
 namespace WCFClientAPI
 {
     public class LibraryClient
     {
-        ILibraryService ls;
+        LibService.LibraryServiceClient ls = new LibService.LibraryServiceClient();
 
-        public LibraryClient()
+        public List<Book> GetAllBooks()
         {
-            ls = new LibraryServiceClient();
+            List<Book> books = new List<Book>();
+            foreach(Book book in ls.GetAllBooks())
+            {
+                books.Add(book);
+            }
+            return books;
         }
 
-        public Boolean AddBook(Book b)
+        public Book GetBook(string isbn)
         {
-            return ls.AddBook(b);
+            return ls.GetBook(isbn);
         }
 
-        public Boolean UpdateBook(Book b)
+        public bool AddNewBook(Book book)
         {
-            return ls.AddBook(b);
+            return ls.AddNewBook(book);
         }
 
-        public bool DeleteBook(Book b)
+        public bool UpdateBook(Book book) 
         {
-            return ls.DeleteBook(b);
+            return ls.UpdateBook(book);
         }
 
-        public Book GetBook(int id)
+        public bool DeleteBook(string isbn)
         {
-            return ls.GetBook(id);
+            return ls.DeleteBook(isbn);                
+        }
+
+        public bool IssueBook(string isbn, string empName)
+        {
+            return ls.IssueBook(isbn, empName);
+        }
+
+        public bool ReturnBook(string isbn)
+        {
+            return ls.ReturnBook(isbn);
         }
 
     }
