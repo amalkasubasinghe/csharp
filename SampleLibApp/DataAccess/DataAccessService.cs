@@ -97,7 +97,7 @@ namespace DataAccess
             try
             {                
                 conn.Open();                
-                string insertString = @"insert into tbl_book(id, name, author, description) values ('"+book.Isbn+"', '"+book.Name+"', '"+book.Author+"', '"+book.Description+"')";              
+                string insertString = @"insert into tbl_book(isbn, name, author, description) values ('"+book.Isbn+"', '"+book.Name+"', '"+book.Author+"', '"+book.Description+"')";              
                 SqlCommand cmd = new SqlCommand(insertString, conn);                
                 cmd.ExecuteNonQuery();
             }

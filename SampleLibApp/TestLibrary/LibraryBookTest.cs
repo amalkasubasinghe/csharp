@@ -3,8 +3,8 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TestLibrary.LibraryService;
-
+using TestLibrary.ServiceReference1;
+using CommonClassLibrary;
 
 namespace TestLibrary
 {
@@ -65,19 +65,19 @@ namespace TestLibrary
         public void TestAddBook()
         {
             ILibraryService ls = new LibraryServiceClient();
-            Book b = new Book();
+            Book b = new Book() { Isbn = "01", Author = "author", Description = "description", Name = "name" };
             
-            Assert.IsTrue(ls.AddBook(b));
+            Assert.IsTrue(ls.AddNewBook(b));
         }
 
-        [TestMethod]
-        public void TestUpdateBook()
-        {
-            ILibraryService ls = new LibraryServiceClient();
-            Book b = new Book();
+        //[TestMethod]
+        //public void TestUpdateBook()
+        //{
+        //    ILibraryService ls = new LibraryServiceClient();
+        //    Book b = new Book();
 
-            Assert.IsTrue(ls.UpdateBook(b));
-        }
+        //    Assert.IsTrue(ls.UpdateBook(b));
+        //}
 
     }
 }

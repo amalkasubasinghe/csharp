@@ -3,13 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using CommonClassLibrary;
+using WCFClientAPI.ServiceReference1;
 
 namespace WCFClientAPI
 {
     public class LibraryClient
     {
-        LibService.LibraryServiceClient ls = new LibService.LibraryServiceClient();
+        LibraryServiceClient ls;
 
+        public LibraryClient()
+        {
+             ls = new LibraryServiceClient();
+        }
         public List<Book> GetAllBooks()
         {
             List<Book> books = new List<Book>();

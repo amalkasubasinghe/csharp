@@ -12,3 +12,5 @@ D:\csharp-handson\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.dll
 D:\csharp-handson\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.pdb
 D:\csharp-handson\csharp\SampleLibApp\DataAccess\bin\Debug\ClassLibrary1.dll
 D:\csharp-handson\csharp\SampleLibApp\DataAccess\bin\Debug\ClassLibrary1.pdb
+C:\project\A_project\csharp\SampleLibApp\DataAccess\bin\Debug\ClassLibrary1.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccess\bin\Debug\ClassLibrary1.pdb
