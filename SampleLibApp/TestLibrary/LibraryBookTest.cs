@@ -65,7 +65,7 @@ namespace TestLibrary
         public void TestAddBook()
         {
             ILibraryService ls = new LibraryServiceClient();
-            Book b = new Book() { Isbn = "01", Author = "author", Description = "description", Name = "name" };
+            Book b = new Book() { Isbn = "01", Author = "author", Description = "descr", Name = "name" };
             
             Assert.IsTrue(ls.AddNewBook(b));
         }

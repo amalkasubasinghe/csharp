@@ -18,3 +18,13 @@ C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\ClassLibrary1.dll
 C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\DataAccess.dll
 C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\DataAccess.pdb
 C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\ClassLibrary1.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.dll.config
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\bin\Debug\ClassLibrary1.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\bin\Debug\DataAccess.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\bin\Debug\DataAccess.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\bin\Debug\ClassLibrary1.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.pdb

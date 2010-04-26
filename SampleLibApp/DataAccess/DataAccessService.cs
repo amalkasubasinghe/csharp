@@ -59,7 +59,7 @@ namespace DataAccess
         public Book GetBook(string isbn) 
         {
             SqlDataReader rdr = null;
-            Book book = new Book();
+            Book book = null;
             try
             {
                 conn.Open();
@@ -69,6 +69,7 @@ namespace DataAccess
                 
                 while (rdr.Read())
                 {
+                    book = new Book();
                     book.Isbn = (string)rdr[0];
                     book.Name = (string)rdr[1];
                     book.Author = (string)rdr[2];

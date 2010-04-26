@@ -66,7 +66,7 @@ namespace TestLibrary
         public void TestClientAPI()
         {
             LibraryClient lc = new LibraryClient();
-            Book b = new Book() { Isbn = "02", Author = "author2", Description = "description2", Name = "name2" };
+            Book b = new Book() { Isbn = "02", Author = "author2", Description = "desc", Name = "name2" };
             Assert.IsTrue(lc.AddNewBook(b));
 
         }

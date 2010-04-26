@@ -25,13 +25,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		SampleLibApp.vsmdi = SampleLibApp.vsmdi
 		SampleLibApp1.vsmdi = SampleLibApp1.vsmdi
 		SampleLibApp2.vsmdi = SampleLibApp2.vsmdi
+		SampleLibApp3.vsmdi = SampleLibApp3.vsmdi
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonClassLibrary", "ClassLibrary1\CommonClassLibrary.csproj", "{B1D444E6-C3D0-420A-96E4-73A2E51B3D2D}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = SampleLibApp2.vsmdi
+		CategoryFile = SampleLibApp3.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
