@@ -71,7 +71,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Properties\DataSources\CommonClassLibrary.Book.datasource" />
-    <None Include="Service References\ServiceReference1\CommonClassLibrary.xsd" />
     <None Include="Service References\ServiceReference1\service.wsdl" />
     <None Include="Service References\ServiceReference1\service.xsd" />
     <None Include="Service References\ServiceReference1\service1.xsd" />
@@ -83,6 +82,8 @@
     <None Include="Service References\ServiceReference1\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\DataSources\com.library.CommonClassLibrary.Book.datasource" />
+    <None Include="Service References\ServiceReference1\com.library.CommonClassLibrary.xsd" />
     <None Include="Service References\ServiceReference1\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>

@@ -3,11 +3,11 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WCFClientAPI;
-using CommonClassLibrary;
+using com.library.WCFClientAPI;
+using com.library.CommonClassLibrary;
 
 
-namespace TestLibrary
+namespace com.library.TestLibrary
 {
     /// <summary>
     /// Summary description for ClientLibraryTest
@@ -66,7 +66,7 @@ namespace TestLibrary
         public void TestClientAPI()
         {
             LibraryClient lc = new LibraryClient();
-            Book b = new Book() { Isbn = "02", Author = "author2", Description = "description2", Name = "name2" };
+            Book b = new Book() { Isbn = "02", Author = "author2", Description = "desc", Name = "name2" };
             Assert.IsTrue(lc.AddNewBook(b));
 
         }

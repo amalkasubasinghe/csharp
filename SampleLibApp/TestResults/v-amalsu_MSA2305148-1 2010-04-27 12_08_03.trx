@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e23f7bc9-951e-48a0-9b33-d45906deefd4" name="v-amalsu@MSA2305148-1 2010-04-27 12:08:03" runUser="FAREAST\v-amalsu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestResults\v-amalsu_MSA2305148-1 2010-04-27 12_08_03">
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="MSA2305148-1" outcome="Warning" timestamp="2010-04-27T12:08:04.9699422+05:30">
+        <Text>The storage 'd:\csharp-handson\rasika2\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll' for test 'TestClientAPI' with id {fef771e6-5c22-0a9c-6fd1-2764873310a1} cannot be found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-04-27T12:08:03.7998447+05:30" queuing="2010-04-27T12:08:05.4535825+05:30" start="2010-04-27T12:08:05.6407981+05:30" finish="2010-04-27T12:08:05.7656085+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestClientAPI" storage="d:\csharp-handson\rasika2\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="fef771e6-5c22-0a9c-6fd1-2764873310a1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dd6e0f74-f1f1-4bbb-9c27-323e3bec7796" />
+      <TestMethod codeBase="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestClientAPI" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fef771e6-5c22-0a9c-6fd1-2764873310a1" executionId="dd6e0f74-f1f1-4bbb-9c27-323e3bec7796" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="dd6e0f74-f1f1-4bbb-9c27-323e3bec7796" testId="fef771e6-5c22-0a9c-6fd1-2764873310a1" testName="TestClientAPI" computerName="MSA2305148-1" duration="00:00:00" startTime="2010-04-27T12:08:05.6876020+05:30" endTime="2010-04-27T12:08:05.7344059+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Error" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>The test assembly 'D:\csharp-handson\rasika2\csharp\SampleLibApp\TestResults\v-amalsu_MSA2305148-1 2010-04-27 12_08_03\Out\TestLibrary.dll' cannot be loaded. Error details: Could not find file 'D:\csharp-handson\rasika2\csharp\SampleLibApp\TestResults\v-amalsu_MSA2305148-1 2010-04-27 12_08_03\Out\TestLibrary.dll'.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

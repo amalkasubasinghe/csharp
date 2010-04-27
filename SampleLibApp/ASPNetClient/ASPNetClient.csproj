@@ -53,29 +53,10 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="add_new_book.aspx" />
-    <Content Include="add_new_employee.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="issue_book.aspx" />
-    <Content Include="manage_books.aspx" />
-    <Content Include="manage_employees.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="add_new_book.aspx.cs">
-      <DependentUpon>add_new_book.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="add_new_book.aspx.designer.cs">
-      <DependentUpon>add_new_book.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="add_new_employee.aspx.cs">
-      <DependentUpon>add_new_employee.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="add_new_employee.aspx.designer.cs">
-      <DependentUpon>add_new_employee.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
       <DependentUpon>Default.aspx</DependentUpon>
@@ -83,28 +64,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="issue_book.aspx.cs">
-      <DependentUpon>issue_book.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="issue_book.aspx.designer.cs">
-      <DependentUpon>issue_book.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="manage_books.aspx.cs">
-      <DependentUpon>manage_books.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="manage_books.aspx.designer.cs">
-      <DependentUpon>manage_books.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="manage_employees.aspx.cs">
-      <DependentUpon>manage_employees.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="manage_employees.aspx.designer.cs">
-      <DependentUpon>manage_employees.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WCFClientAPI\WCFClientAPI.csproj">
+      <Project>{B0959175-9864-4276-A487-3CBD3F5C8234}</Project>
+      <Name>WCFClientAPI</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -8,3 +8,8 @@ C:\project\A_project\csharp\SampleLibApp\ClassLibrary1\bin\Debug\ClassLibrary1.p
 C:\project\A_project\csharp\SampleLibApp\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
 C:\project\A_project\csharp\SampleLibApp\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 C:\project\A_project\csharp\SampleLibApp\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

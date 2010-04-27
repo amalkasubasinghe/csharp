@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\csharp-handson\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.dll
 D:\csharp-handson\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.pdb
 D:\csharp-handson\csharp\SampleLibApp\CommandletClient\obj\Debug\ResolveAssemblyReference.cache
@@ -12,3 +13,20 @@ C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\ClassLibrary
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI.dll
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\ClassLibrary1.pdb
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI.pdb
+=======
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.dll
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.pdb
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.dll
+D:\csharp-handson\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.pdb
+C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.dll
+C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.pdb
+C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\ResolveAssemblyReference.cache
+C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.dll
+C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.pdb
+D:\csharp-handson\rasika2\csharp\SampleLibApp\CommandletClient\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\rasika2\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.dll
+D:\csharp-handson\rasika2\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.pdb
+>>>>>>> a78534420c1edd844be6e0ff45371e8b54ed2841
