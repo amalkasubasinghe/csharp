@@ -78,7 +78,11 @@
   -->
   <PropertyGroup>
     <PostBuildEvent>del $(SolutionDir)\..\install\CSTLIB\bin\*.dll
-copy $(ProjectDir)$(OutDir)*.dll $(SolutionDir)\..\install\CSTLIB\bin</PostBuildEvent>
+del $(SolutionDir)\..\install\CSTLIB\Library.svc
+del $(SolutionDir)\..\install\CSTLIB\web.config
+copy $(ProjectDir)$(OutDir)*.dll $(SolutionDir)\..\install\CSTLIB\bin
+copy $(ProjectDir)Library.svc $(SolutionDir)\..\install\CSTLIB
+copy $(ProjectDir)web.config $(SolutionDir)\..\install\CSTLIB</PostBuildEvent>
     <PreBuildEvent>
     </PreBuildEvent>
   </PropertyGroup>

@@ -1,1 +1,1 @@
-﻿<%@ServiceHost language="c#" Debug="true" Service="CST.WCFServer.LibraryService" %>
+﻿<%@ServiceHost language="c#" Debug="true" Service="com.library.WCFServer.LibraryService" %>
