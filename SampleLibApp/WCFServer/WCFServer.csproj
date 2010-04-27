@@ -53,7 +53,8 @@
     <Compile Include="LibraryService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App_.config1" />
+    <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\CommonClassLibrary.csproj">
@@ -64,6 +65,9 @@
       <Project>{42EB4D38-35C4-4039-B6EE-79201CD7EC99}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library.svc" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

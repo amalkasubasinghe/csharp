@@ -4,7 +4,6 @@ D:\csharp-handson\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.pdb
 D:\csharp-handson\csharp\SampleLibApp\WCFServer\obj\Debug\ResolveAssemblyReference.cache
 D:\csharp-handson\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.dll
 D:\csharp-handson\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.pdb
-C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.dll.config
 C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.dll
 C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\WCFServer.pdb
 C:\project\A_project\csharp\SampleLibApp\WCFServer\obj\Debug\ResolveAssemblyReference.cache

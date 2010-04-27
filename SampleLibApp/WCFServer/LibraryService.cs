@@ -8,7 +8,7 @@ using DataAccess;
 using CommonClassLibrary;
 
 
-namespace WCFServer
+namespace CST.WCFServer
 {
     // NOTE: If you change the class name "Service1" here, you must also update the reference to "Service1" in App.config.
     public class LibraryService : ILibraryService
