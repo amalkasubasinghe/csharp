@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Management.Automation;
-using WCFClientAPI;
-using CommonClassLibrary;
+using com.library.CommonClassLibrary;
+using com.library.WCFClientAPI;
 
 namespace CommandletClient
 {

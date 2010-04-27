@@ -53,7 +53,6 @@
     <Compile Include="LibraryService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App_.config1" />
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,4 +76,10 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent>del $(SolutionDir)\..\install\CSTLIB\bin\*.dll
+copy $(ProjectDir)$(OutDir)*.dll $(SolutionDir)\..\install\CSTLIB\bin</PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>
