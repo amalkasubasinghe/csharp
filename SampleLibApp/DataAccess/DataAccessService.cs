@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
-using CommonClassLibrary;
+using com.library.CommonClassLibrary;
 
-namespace DataAccess
+namespace com.library.DataAccess
 {
     public class DataAccessService : IDataAccessService 
     {

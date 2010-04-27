@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d4b56d5e-f396-4da3-97ad-d70bea5d24b7" name="v-amalsu@MSA2305148-1 2010-04-27 10:24:38" runUser="FAREAST\v-amalsu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestResults\v-amalsu_MSA2305148-1 2010-04-27 10_24_38">
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-04-27T10:24:38.6054348+05:30" queuing="2010-04-27T10:24:44.2666804+05:30" start="2010-04-27T10:24:44.4543460+05:30" finish="2010-04-27T10:24:47.0191092+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestClientAPI" storage="d:\csharp-handson\rasika2\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="8e44ae32-a0ee-ecb4-8246-c385621ad65e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="da847114-2f96-400e-b590-6105fcc4eb0f" />
+      <TestMethod codeBase="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestLibrary.ClientLibraryTest, TestLibrary" name="TestClientAPI" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8e44ae32-a0ee-ecb4-8246-c385621ad65e" executionId="da847114-2f96-400e-b590-6105fcc4eb0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="da847114-2f96-400e-b590-6105fcc4eb0f" testId="8e44ae32-a0ee-ecb4-8246-c385621ad65e" testName="TestClientAPI" computerName="MSA2305148-1" duration="00:00:02.3118039" startTime="2010-04-27T10:24:44.5169012+05:30" endTime="2010-04-27T10:24:46.9721928+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestLibrary.ClientLibraryTest.TestClientAPI threw exception:  System.ServiceModel.EndpointNotFoundException: Could not connect to http://localhost:8731/Design_Time_Addresses/WCFServer/LibraryService/. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:8731.  ---&gt;  System.Net.WebException: Unable to connect to the remote server ---&gt;  System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:8731.</Message>
+          <StackTrace>    at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket&amp; socket, IPAddress&amp; address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception&amp; exception)
+ --- End of inner exception stack trace ---
+    at System.Net.HttpWebRequest.GetRequestStream(TransportContext&amp; context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+ --- End of inner exception stack trace ---
+ 
+Server stack trace: 
+   at System.ServiceModel.Security.IssuanceTokenProviderBase`1.DoNegotiation(TimeSpan timeout)
+   at System.ServiceModel.Security.SspiNegotiationTokenProvider.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.CommunicationObjectSecurityTokenProvider.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityUtils.OpenTokenProviderIfRequired(SecurityTokenProvider tokenProvider, TimeSpan timeout)
+   at System.ServiceModel.Security.SymmetricSecurityProtocol.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Security.WrapperSecurityCommunicationObject.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.ClientSecurityChannel`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.DoOperation(SecuritySessionOperation operation, EndpointAddress target, Uri via, SecurityToken currentToken, TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionSecurityTokenProvider.GetTokenCore(TimeSpan timeout)
+   at System.IdentityModel.Selectors.SecurityTokenProvider.GetToken(TimeSpan timeout)
+   at System.ServiceModel.Security.SecuritySessionClientSettings`1.ClientSecuritySessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at WCFClientAPI.ServiceReference1.ILibraryService.AddNewBook(Book book)
+   at WCFClientAPI.ServiceReference1.LibraryServiceClient.AddNewBook(Book book) in D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\Service References\ServiceReference1\Reference.cs:line 76
+   at WCFClientAPI.LibraryClient.AddNewBook(Book book) in D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 65
+   at TestLibrary.ClientLibraryTest.TestClientAPI() in D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

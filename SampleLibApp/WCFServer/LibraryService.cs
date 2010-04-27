@@ -4,11 +4,11 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-using DataAccess;
-using CommonClassLibrary;
+using com.library.DataAccess;
+using com.library.CommonClassLibrary;
 
 
-namespace WCFServer
+namespace com.library.WCFServer
 {
     // NOTE: If you change the class name "Service1" here, you must also update the reference to "Service1" in App.config.
     public class LibraryService : ILibraryService

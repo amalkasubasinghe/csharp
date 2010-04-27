@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ASPNetClient {
+namespace com.library.ASPNetClient {
     
     
     public partial class _Default {

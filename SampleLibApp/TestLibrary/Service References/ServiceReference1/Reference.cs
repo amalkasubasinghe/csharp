@@ -16,16 +16,16 @@ namespace TestLibrary.ServiceReference1 {
     public interface ILibraryService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILibraryService/GetAllBooks", ReplyAction="http://tempuri.org/ILibraryService/GetAllBooksResponse")]
-        CommonClassLibrary.Book[] GetAllBooks();
+        com.library.CommonClassLibrary.Book[] GetAllBooks();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILibraryService/GetBook", ReplyAction="http://tempuri.org/ILibraryService/GetBookResponse")]
-        CommonClassLibrary.Book GetBook(string isbn);
+        com.library.CommonClassLibrary.Book GetBook(string isbn);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILibraryService/AddNewBook", ReplyAction="http://tempuri.org/ILibraryService/AddNewBookResponse")]
-        bool AddNewBook(CommonClassLibrary.Book book);
+        bool AddNewBook(com.library.CommonClassLibrary.Book book);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILibraryService/UpdateBook", ReplyAction="http://tempuri.org/ILibraryService/UpdateBookResponse")]
-        bool UpdateBook(CommonClassLibrary.Book book);
+        bool UpdateBook(com.library.CommonClassLibrary.Book book);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ILibraryService/DeleteBook", ReplyAction="http://tempuri.org/ILibraryService/DeleteBookResponse")]
         bool DeleteBook(string isbn);
@@ -64,19 +64,19 @@ namespace TestLibrary.ServiceReference1 {
                 base(binding, remoteAddress) {
         }
         
-        public CommonClassLibrary.Book[] GetAllBooks() {
+        public com.library.CommonClassLibrary.Book[] GetAllBooks() {
             return base.Channel.GetAllBooks();
         }
         
-        public CommonClassLibrary.Book GetBook(string isbn) {
+        public com.library.CommonClassLibrary.Book GetBook(string isbn) {
             return base.Channel.GetBook(isbn);
         }
         
-        public bool AddNewBook(CommonClassLibrary.Book book) {
+        public bool AddNewBook(com.library.CommonClassLibrary.Book book) {
             return base.Channel.AddNewBook(book);
         }
         
-        public bool UpdateBook(CommonClassLibrary.Book book) {
+        public bool UpdateBook(com.library.CommonClassLibrary.Book book) {
             return base.Channel.UpdateBook(book);
         }
         

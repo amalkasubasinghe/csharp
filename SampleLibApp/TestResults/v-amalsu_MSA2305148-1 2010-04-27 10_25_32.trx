@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="830b2bdd-060e-40b7-aa7e-4f400dbcc470" name="v-amalsu@MSA2305148-1 2010-04-27 10:25:32" runUser="FAREAST\v-amalsu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestResults\v-amalsu_MSA2305148-1 2010-04-27 10_25_32">
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-04-27T10:25:32.2677744+05:30" queuing="2010-04-27T10:25:33.4406844+05:30" start="2010-04-27T10:25:33.4719620+05:30" finish="2010-04-27T10:25:33.8316544+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestClientAPI" storage="d:\csharp-handson\rasika2\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="8e44ae32-a0ee-ecb4-8246-c385621ad65e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c3ee565e-c8bc-4c3d-8eb6-d2468f6e94d3" />
+      <TestMethod codeBase="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestLibrary.ClientLibraryTest, TestLibrary" name="TestClientAPI" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8e44ae32-a0ee-ecb4-8246-c385621ad65e" executionId="c3ee565e-c8bc-4c3d-8eb6-d2468f6e94d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c3ee565e-c8bc-4c3d-8eb6-d2468f6e94d3" testId="8e44ae32-a0ee-ecb4-8246-c385621ad65e" testName="TestClientAPI" computerName="MSA2305148-1" duration="00:00:00.2609187" startTime="2010-04-27T10:25:33.4876008+05:30" endTime="2010-04-27T10:25:33.8003768+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

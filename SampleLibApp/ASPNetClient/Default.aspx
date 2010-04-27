@@ -10,10 +10,10 @@
 
 <%
 
-    foreach (string item in names)
-    {
-        Response.Write(item);
-    }
+    //foreach (string item in names)
+    //{
+    //    Response.Write(item);
+    //}
      %>
     <h1>Library</h1>
     

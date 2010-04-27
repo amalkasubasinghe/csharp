@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestLibrary.ServiceReference1;
-using CommonClassLibrary;
+using com.library.CommonClassLibrary;
 
-namespace TestLibrary
+namespace com.library.TestLibrary
 {
     /// <summary>
     /// Summary description for UnitTest1

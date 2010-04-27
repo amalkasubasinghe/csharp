@@ -3,11 +3,11 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WCFClientAPI;
-using CommonClassLibrary;
+using com.library.WCFClientAPI;
+using com.library.CommonClassLibrary;
 
 
-namespace TestLibrary
+namespace com.library.TestLibrary
 {
     /// <summary>
     /// Summary description for ClientLibraryTest

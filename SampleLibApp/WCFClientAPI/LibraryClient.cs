@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CommonClassLibrary;
+using com.library.CommonClassLibrary;
 using WCFClientAPI.ServiceReference1;
 
-namespace WCFClientAPI
+namespace com.library.WCFClientAPI
 {
     public class LibraryClient
     {
@@ -60,10 +60,10 @@ namespace WCFClientAPI
             return ls.AddNewBook(book);
         }
 
-        //public bool AddNewBook(Book book)
-        //{
-        //    return ls.AddNewBook(book);
-        //}
+        public bool AddNewBook(Book book)
+        {
+            return ls.AddNewBook(book);
+        }
 
         //public bool UpdateBook(Book book) 
         //{

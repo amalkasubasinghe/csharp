@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
-using CommonClassLibrary;
+using com.library.CommonClassLibrary;
 
 
 
-namespace DataAccess
+namespace com.library.DataAccess
 {
     public interface IDataAccessService
     {

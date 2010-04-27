@@ -11,10 +11,9 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
-using CommonClassLibrary; // only for testing
 using WCFClientAPI;
 
-namespace ASPNetClient
+namespace com.library.ASPNetClient
 {
     public partial class _Default : System.Web.UI.Page
     {
@@ -66,7 +65,8 @@ namespace ASPNetClient
                 }
                 catch(Exception ex)                
                 {
-                    lblBookMessage.Text = ex.Message;
+                    lblBookMessage.Text = ex.Message.ToString();
+                    return;
                 }
                 lblBookMessage.Text = "Book Added Successfully...!";
             }

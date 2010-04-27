@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6b7f6972-369e-4977-a018-f70e4b29de7a" name="v-amalsu@MSA2305148-1 2010-04-27 12:09:04" runUser="FAREAST\v-amalsu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestResults\v-amalsu_MSA2305148-1 2010-04-27 12_09_04">
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+      <DeploymentItem filename="D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-04-27T12:09:04.2860848+05:30" queuing="2010-04-27T12:09:05.8462148+05:30" start="2010-04-27T12:09:05.8618161+05:30" finish="2010-04-27T12:09:06.1114369+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestClientAPI" storage="d:\csharp-handson\rasika2\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="fef771e6-5c22-0a9c-6fd1-2764873310a1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="978aad6f-75e5-476e-ad0f-3479ba79f59b" />
+      <TestMethod codeBase="D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestClientAPI" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fef771e6-5c22-0a9c-6fd1-2764873310a1" executionId="978aad6f-75e5-476e-ad0f-3479ba79f59b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="978aad6f-75e5-476e-ad0f-3479ba79f59b" testId="fef771e6-5c22-0a9c-6fd1-2764873310a1" testName="TestClientAPI" computerName="MSA2305148-1" duration="00:00:00.1006154" startTime="2010-04-27T12:09:05.8774174+05:30" endTime="2010-04-27T12:09:06.0802343+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestClientAPI threw exception:  System.InvalidOperationException: An endpoint configuration section for contract 'ServiceReference1.ILibraryService' could not be loaded because more than one endpoint configuration for that contract was found. Please indicate the preferred endpoint configuration section by name..</Message>
+          <StackTrace>    at System.ServiceModel.Description.ConfigLoader.LookupChannel(String configurationName, String contractName, Boolean wildcard)
+   at System.ServiceModel.Description.ConfigLoader.LoadChannelBehaviors(ServiceEndpoint serviceEndpoint, String configurationName)
+   at System.ServiceModel.ChannelFactory.ApplyConfiguration(String configurationName, Configuration configuration)
+   at System.ServiceModel.ChannelFactory.ApplyConfiguration(String configurationName)
+   at System.ServiceModel.ChannelFactory.InitializeEndpoint(String configurationName, EndpointAddress address)
+   at System.ServiceModel.ChannelFactory`1..ctor(String endpointConfigurationName, EndpointAddress remoteAddress)
+   at System.ServiceModel.EndpointTrait`1.CreateSimplexFactory()
+   at System.ServiceModel.EndpointTrait`1.CreateChannelFactory()
+   at System.ServiceModel.ClientBase`1.CreateChannelFactoryRef(EndpointTrait`1 endpointTrait)
+   at System.ServiceModel.ClientBase`1.InitializeChannelFactoryRef()
+   at System.ServiceModel.ClientBase`1..ctor()
+   at WCFClientAPI.ServiceReference1.LibraryServiceClient..ctor() in D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\Service References\ServiceReference1\Reference.cs:line 48
+   at com.library.WCFClientAPI.LibraryClient..ctor() in D:\csharp-handson\rasika2\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 16
+   at com.library.TestLibrary.ClientLibraryTest.TestClientAPI() in D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 68
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
