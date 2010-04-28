@@ -1,9 +1,7 @@
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\ResolveAssemblyReference.cache
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.dll
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.pdb
-C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\ClassLibrary1.dll
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI.dll
-C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\ClassLibrary1.pdb
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI.pdb
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.dll
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.pdb

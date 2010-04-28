@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Management.Automation;
-using com.library.CommonClassLibrary;
 using com.library.WCFClientAPI;
+using com.library.CommonClassLibrary;
 
 namespace CommandletClient
 {
@@ -31,7 +31,7 @@ namespace CommandletClient
             try
             {
                 LibraryClient lc = new LibraryClient();
-                Book b = new Book() { Isbn = "03", Author = "author3", Description = "description3", Name = "name3" };
+                Book b = new Book() { Isbn = "03", Author = "author3", Description = "powershell", Name = "name3" };
                 bool added = lc.AddNewBook(b);
                 if (added)
                 {

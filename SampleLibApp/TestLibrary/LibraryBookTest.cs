@@ -3,8 +3,8 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TestLibrary.ServiceReference1;
 using com.library.CommonClassLibrary;
+
 
 namespace com.library.TestLibrary
 {
@@ -61,14 +61,14 @@ namespace com.library.TestLibrary
         //
         #endregion
 
-        [TestMethod]
-        public void TestAddBook()
-        {
-            ILibraryService ls = new LibraryServiceClient();
-            Book b = new Book() { Isbn = "01", Author = "author", Description = "descr", Name = "name" };
-            
-            Assert.IsTrue(ls.AddNewBook(b));
-        }
+        //[TestMethod]
+        //public void TestAddBook()
+        //{
+        //    ILibraryService ls = new LibraryServiceClient();
+        //    Book b = new Book() { Isbn = "01", Author = "author", Description = "descr", Name = "name" };
+
+        //    Assert.IsTrue(ls.AddNewBook(b));
+        //}
 
         //[TestMethod]
         //public void TestUpdateBook()

@@ -52,42 +52,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LibraryClient.cs" />
+    <Compile Include="LibraryService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\ServiceReference1\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\CommonClassLibrary.csproj">
-      <Project>{B1D444E6-C3D0-420A-96E4-73A2E51B3D2D}</Project>
-      <Name>CommonClassLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
     <None Include="Properties\DataSources\CommonClassLibrary.Book.datasource" />
-    <None Include="Service References\ServiceReference1\service.wsdl" />
-    <None Include="Service References\ServiceReference1\service.xsd" />
-    <None Include="Service References\ServiceReference1\service1.xsd" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\DataSources\com.library.CommonClassLibrary.Book.datasource" />
-    <None Include="Service References\ServiceReference1\com.library.CommonClassLibrary.xsd" />
-    <None Include="Service References\ServiceReference1\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

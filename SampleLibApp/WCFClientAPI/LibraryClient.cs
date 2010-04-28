@@ -3,17 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using com.library.CommonClassLibrary;
-using WCFClientAPI.ServiceReference1;
+using com.library.WCFClientAPI;
+using System.ServiceModel;
 
 namespace com.library.WCFClientAPI
 {
     public class LibraryClient
     {
-        LibraryServiceClient ls;
-
-        public LibraryClient()
+        LibraryServiceClient ls = null;
+        string defaultendpoint = "net.tcp://localhost:9001/Library.svc";
+        public LibraryClient():this("")
         {
-             ls = new LibraryServiceClient();
+        }
+
+        public LibraryClient(string endpoint)
+        {
+            NetTcpBinding myBinding = new NetTcpBinding();
+            myBinding.Security.Mode = SecurityMode.None;
+            if (endpoint == "")
+            {
+                //Todo: read this from a file.
+                endpoint = defaultendpoint;
+            }
+            EndpointAddress myEndpoint = new EndpointAddress(endpoint);
+
+            ls = new LibraryServiceClient(myBinding, myEndpoint);
         }
         public List<Book> GetAllBooks()
         {
@@ -150,6 +164,14 @@ namespace com.library.WCFClientAPI
                 }
             }
             return ls.ReturnBook(isbn);
+        }
+
+        ~LibraryClient()
+        {
+            if (ls != null)
+            {
+                ls.Close();
+            }
         }
 
     }

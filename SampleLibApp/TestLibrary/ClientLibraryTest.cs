@@ -7,6 +7,7 @@ using com.library.WCFClientAPI;
 using com.library.CommonClassLibrary;
 
 
+
 namespace com.library.TestLibrary
 {
     /// <summary>
@@ -66,7 +67,7 @@ namespace com.library.TestLibrary
         public void TestClientAPI()
         {
             LibraryClient lc = new LibraryClient();
-            Book b = new Book() { Isbn = "02", Author = "author2", Description = "desc", Name = "name2" };
+            Book b = new Book() { Isbn = "07", Author = "authorsdfd5555", Description = "desc", Name = "name2" };
             Assert.IsTrue(lc.AddNewBook(b));
 
         }
