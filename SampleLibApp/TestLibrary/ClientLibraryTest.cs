@@ -5,7 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using com.library.WCFClientAPI;
 using com.library.CommonClassLibrary;
-
+using System.Data.SqlClient;
 
 
 namespace com.library.TestLibrary
@@ -63,9 +63,21 @@ namespace com.library.TestLibrary
         //
         #endregion
 
+        public void TestSetup()
+        {
+            string connectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=csharp-db;Integrated Security=True;Pooling=False";
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                SqlCommand sqlComm = new SqlCommand("DELETE FROM tbl_book", conn);
+                conn.Open();
+                sqlComm.ExecuteNonQuery();
+            }
+        }
+
         [TestMethod]
         public void TestAddBookAsBook()
         {
+            TestSetup();
             LibraryClient lc = new LibraryClient();
             Book expectedBook = new Book() { Isbn = "01", Author = "author1", Description = "desc1", Name = "name1" };
             Assert.IsTrue(lc.AddNewBook(expectedBook));

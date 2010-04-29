@@ -31,12 +31,18 @@ namespace com.library.DataAccess
                 while (rdr.Read())
                 {
                     Book b = new Book();
-                    b.Isbn = (string)rdr[0];
-                    b.Name = (string)rdr[1];
-                    b.Author = (string)rdr[2];
-                    b.Description = (string)rdr[3];
-                    b.Borrowed_by = (string)rdr[4];
-                    b.Borrowed_date = (string)rdr[5];
+                    b.Isbn = ((string)rdr[0]).Trim();
+                    b.Name = ((string)rdr[1]).Trim();
+                    b.Author = ((string)rdr[2]).Trim();
+                    b.Description = ((string)rdr[3]).Trim();
+                    if (rdr[4] != DBNull.Value)
+                    {
+                        b.Borrowed_by = ((string)rdr[4]).Trim();
+                    }
+                    if (rdr[5] != DBNull.Value)
+                    {
+                        b.Borrowed_date = ((string)rdr[5]).Trim();
+                    }       
 
                     books.Add(b);
                 }

@@ -88,4 +88,36 @@ namespace CommandletClient
 
     }
 
+    [Cmdlet(VerbsCommon.Get, "ALLBooks", SupportsShouldProcess = false)]
+    public class GetAllBooks : Cmdlet
+    {
+
+        protected override void ProcessRecord()
+        {
+            try
+            {
+                LibraryClient lc = new LibraryClient();
+                List<Book> bookList = lc.GetAllBooks();
+                if (bookList.Count() > 0) 
+                {
+                    WriteObject(bookList);
+                }
+                else
+                {
+                    throw new Exception("Could not get the book list");
+                }
+            }
+            catch (Exception e)
+            {
+                WriteError(
+                    new ErrorRecord(
+                        e,
+                        "GetAllBooksException",
+                        ErrorCategory.NotSpecified, "GetAllBooks")
+                    );
+            }
+        }
+
+    }
+
 }
