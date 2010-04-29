@@ -170,7 +170,14 @@ namespace com.library.WCFClientAPI
         {
             if (ls != null)
             {
-                ls.Close();
+                try
+                {
+                    ls.Close();
+                }
+                finally
+                {
+                    ls = null;
+                }
             }
         }
 

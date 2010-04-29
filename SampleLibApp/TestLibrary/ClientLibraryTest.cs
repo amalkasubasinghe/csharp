@@ -64,12 +64,29 @@ namespace com.library.TestLibrary
         #endregion
 
         [TestMethod]
-        public void TestClientAPI()
+        public void TestAddBookAsBook()
         {
             LibraryClient lc = new LibraryClient();
-            Book b = new Book() { Isbn = "07", Author = "authorsdfd5555", Description = "desc", Name = "name2" };
-            Assert.IsTrue(lc.AddNewBook(b));
+            Book expectedBook = new Book() { Isbn = "01", Author = "author1", Description = "desc1", Name = "name1" };
+            Assert.IsTrue(lc.AddNewBook(expectedBook));
 
+            Book actualBook = lc.GetBook("01");
+            Assert.AreEqual(expectedBook.Author, actualBook.Author);
+            Assert.AreEqual(expectedBook.Name, actualBook.Name);
+            Assert.AreEqual(expectedBook.Description, actualBook.Description);
+            Assert.IsTrue(lc.DeleteBook("01"));
         }
+
+        //public void TestAddBook()
+        //{
+        //    LibraryClient lc = new LibraryClient();
+        //    Book expectedBook = new Book() { Isbn = "01", Author = "author1", Description = "desc1", Name = "name1" };
+        //    Assert.IsTrue(lc.AddNewBook(expectedBook));
+
+        //    Book actualBook = lc.GetBook("01");
+        //    Assert.AreEqual(expectedBook.Author, actualBook.Author);
+        //    Assert.AreEqual(expectedBook.Name, actualBook.Name);
+        //    Assert.AreEqual(expectedBook.Description, actualBook.Description);
+        //}
     }
 }

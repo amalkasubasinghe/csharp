@@ -47,7 +47,6 @@
   <ItemGroup>
     <Compile Include="ClientLibraryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="LibraryBookTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AuthoringTests.txt" />

@@ -11,19 +11,50 @@ namespace CommandletClient
     [Cmdlet(VerbsCommon.Add, "NewBook", SupportsShouldProcess = false)]
     public class AddNewBook:Cmdlet
     {
-        private string _name = "mybook";
 
         /// <summary>name of the book</summary>
-        [Alias("BookName")]
         [Parameter(
             Mandatory = true,
             Position = 1,
             ValueFromPipelineByPropertyName = true
             )]
-        public string Name
+        public string ISBN
         {
-            get { return _name; }
-            set { _name = value; }
+            get;
+            set;
+        }
+
+        [Parameter(
+            Mandatory = true,
+            Position = 2,
+            ValueFromPipelineByPropertyName = true
+            )]
+        public string BookName
+        {
+            get;
+            set;
+        }
+
+        [Parameter(
+            Mandatory = true,
+            Position = 3,
+            ValueFromPipelineByPropertyName = true
+            )]
+        public string Author
+        {
+            get;
+            set;
+        }
+
+        [Parameter(
+            Mandatory = true,
+            Position = 4,
+            ValueFromPipelineByPropertyName = true
+            )]
+        public string Description
+        {
+            get;
+            set;
         }
     
         protected override void ProcessRecord()
@@ -31,8 +62,8 @@ namespace CommandletClient
             try
             {
                 LibraryClient lc = new LibraryClient();
-                Book b = new Book() { Isbn = "03", Author = "author3", Description = "powershell", Name = "name3" };
-                bool added = lc.AddNewBook(b);
+               
+                bool added = lc.AddNewBook(ISBN,BookName,Author,Description);
                 if (added)
                 {
                     WriteObject("Successfully Added the Book");
@@ -49,7 +80,7 @@ namespace CommandletClient
                         e,
                         "AddBookException", 
                         ErrorCategory.NotSpecified, 
-                        Name
+                        BookName
                         )
                     );
             }

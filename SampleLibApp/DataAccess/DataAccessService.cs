@@ -70,12 +70,16 @@ namespace com.library.DataAccess
                 while (rdr.Read())
                 {
                     book = new Book();
-                    book.Isbn = (string)rdr[0];
-                    book.Name = (string)rdr[1];
-                    book.Author = (string)rdr[2];
-                    book.Description = (string)rdr[3];
-                    book.Borrowed_by = (string)rdr[4];
-                    book.Borrowed_date = (string)rdr[5];                    
+                    book.Isbn = ((string)rdr[0]).Trim();
+                    book.Name = ((string)rdr[1]).Trim();
+                    book.Author = ((string)rdr[2]).Trim();
+                    book.Description = ((string)rdr[3]).Trim();
+                    if (rdr[4] != DBNull.Value) {
+                        book.Borrowed_by = ((string)rdr[4]).Trim();
+                    }
+                    if (rdr[5] != DBNull.Value) {                  
+                        book.Borrowed_date = ((string)rdr[5]).Trim();
+                    }                  
                 }
 
             }

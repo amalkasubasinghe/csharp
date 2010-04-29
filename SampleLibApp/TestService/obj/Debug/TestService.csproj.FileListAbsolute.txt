@@ -1,0 +1,6 @@
+C:\project\A_project\csharp\SampleLibApp\TestService\obj\Debug\ResolveAssemblyReference.cache
+C:\project\A_project\csharp\SampleLibApp\TestService\bin\Debug\TestService.dll.config
+C:\project\A_project\csharp\SampleLibApp\TestService\bin\Debug\TestService.dll
+C:\project\A_project\csharp\SampleLibApp\TestService\bin\Debug\TestService.pdb
+C:\project\A_project\csharp\SampleLibApp\TestService\obj\Debug\TestService.dll
+C:\project\A_project\csharp\SampleLibApp\TestService\obj\Debug\TestService.pdb
