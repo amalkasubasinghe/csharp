@@ -71,20 +71,21 @@ namespace com.library.TestService
             }
         }
 
-        [TestMethod]
-        public void TestAddBookAsBook()
-        {
-            TestSetup();
-            ILibraryService lc = new LibraryServiceClient();
-            Book expectedBook = new Book() { Isbn = "01", Author = "author1", Description = "desc1", Name = "name1" };
-            Assert.IsTrue(lc.AddNewBook(expectedBook));
+        //Obsolete
+        //[TestMethod]
+        //public void TestAddBookAsBook()
+        //{
+        //    TestSetup();
+        //    ILibraryService lc = new LibraryServiceClient();
+        //    Book expectedBook = new Book() { Isbn = "01", Author = "author1", Description = "desc1", Name = "name1" };
+        //    Assert.IsTrue(lc.AddNewBook(expectedBook));
 
-            Book actualBook = lc.GetBook("01");
-            Assert.AreEqual(expectedBook.Author, actualBook.Author);
-            Assert.AreEqual(expectedBook.Name, actualBook.Name);
-            Assert.AreEqual(expectedBook.Description, actualBook.Description);
-            Assert.IsTrue(lc.DeleteBook("01"));
-        }
+        //    Book actualBook = lc.GetBook("01");
+        //    Assert.AreEqual(expectedBook.Author, actualBook.Author);
+        //    Assert.AreEqual(expectedBook.Name, actualBook.Name);
+        //    Assert.AreEqual(expectedBook.Description, actualBook.Description);
+        //    Assert.IsTrue(lc.DeleteBook("01"));
+        //}
 
     }
 }

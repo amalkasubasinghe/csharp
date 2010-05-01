@@ -53,18 +53,18 @@ namespace com.library.WCFClientAPI
             {
                 throw new Exception("ISBN already exist...!");
             }
-            if (name == "")
-            {
-                throw new Exception("Name is required...!");
-            }
-            if (author == "")
-            {
-                throw new Exception("Author is required...!");
-            }
-            if (description == "")
-            {
-                throw new Exception("Description is required...!");
-            }
+            //if (name == "")
+            //{
+            //    throw new Exception("Name is required...!");
+            //}
+            //if (author == "")
+            //{
+            //    throw new Exception("Author is required...!");
+            //}
+            //if (description == "")
+            //{
+            //    throw new Exception("Description is required...!");
+            //}
 
             Book book = new Book();
             book.Isbn = isbn;
@@ -170,14 +170,17 @@ namespace com.library.WCFClientAPI
         {
             if (ls != null)
             {
-                //try
-                //{
-                //    ls.Close();
-                //}
-                //finally
-                //{
-                //    ls = null;
-                //}
+                try
+                {
+                    ls.Close();
+                }
+                catch (Exception)
+                {
+                }
+                finally
+                {
+                    ls = null;
+                }
             }
         }
 

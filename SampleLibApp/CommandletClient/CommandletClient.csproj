@@ -53,11 +53,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LibraryCommands.cs" />
+    <Compile Include="AddBook.cs" />
+    <Compile Include="GetBook.cs" />
+    <Compile Include="ReturnBook.cs" />
+    <Compile Include="LendBook.cs" />
+    <Compile Include="DeleteBook.cs" />
+    <Compile Include="GetAllBooks.cs" />
     <Compile Include="PSBookLibrarySnapIn.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpdateBook.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WCFClientAPI\WCFClientAPI.csproj">
@@ -73,4 +79,8 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <PostBuildEvent>del $(SolutionDir)\..\installPowershellClient\*.dll
+copy $(ProjectDir)$(OutDir)*.dll $(SolutionDir)\..\installPowershellClient</PostBuildEvent>
+  </PropertyGroup>
 </Project>

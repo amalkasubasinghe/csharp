@@ -75,7 +75,7 @@
                     </tr>
                     <tr>
                         <th></th>
-                        <td><asp:button id="cmdAdd" runat="server" text="Add" onclick="cmdAdd_Click" > </asp:button>
+                        <td><asp:button id="cmdAdd" runat="server" text="Add"> </asp:button>
                             <asp:button id="cmdUpdate" runat="server" text="Update" 
                                 onclick="cmdUpdate_Click" > </asp:button>
                             <asp:button id="cmdDelete" runat="server" text="Delete" 

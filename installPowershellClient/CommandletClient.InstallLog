@@ -1,0 +1,18 @@
+﻿Uninstalling assembly 'C:\project\A_project\csharp\installPowershellClient\CommandletClient.dll'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\project\A_project\csharp\installPowershellClient\CommandletClient.dll
+   logfile = C:\project\A_project\csharp\installPowershellClient\CommandletClient.InstallLog
+An exception occurred during the uninstallation of the CommandletClient.PSBookLibrarySnapIn installer.
+System.ArgumentException: Cannot delete a subkey tree because the subkey does not exist.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\project\A_project\csharp\installPowershellClient\CommandletClient.dll'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\project\A_project\csharp\installPowershellClient\CommandletClient.dll
+   logfile = C:\project\A_project\csharp\installPowershellClient\CommandletClient.InstallLog
+Committing assembly 'C:\project\A_project\csharp\installPowershellClient\CommandletClient.dll'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\project\A_project\csharp\installPowershellClient\CommandletClient.dll
+   logfile = C:\project\A_project\csharp\installPowershellClient\CommandletClient.InstallLog
