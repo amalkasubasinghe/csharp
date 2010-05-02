@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="62e6c60e-9cc6-4c30-bf57-652fb01e9b3b" name="welras@CNK3T3J 2010-05-02 09:30:49" runUser="AD\welras" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\project\A_project\csharp\SampleLibApp\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\project\A_project\csharp\SampleLibApp\TestResults\welras_CNK3T3J 2010-05-02 09_30_49">
+      <DeploymentItem filename="C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:31:37.7980482+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:31:37.8292506+05:30">
+        <Text>Failed to stop test run 'welras@CNK3T3J 2010-05-02 09:30:49': Failed to read from an IPC Port: The pipe has been ended.
+</Text>
+        <Exception>System.Runtime.Remoting.RemotingException: Failed to read from an IPC Port: The pipe has been ended.
+
+
+Server stack trace: 
+   at System.Runtime.Remoting.Channels.Ipc.IpcPort.Read(Byte[] data, Int32 offset, Int32 length)
+   at System.Runtime.Remoting.Channels.Ipc.PipeStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Runtime.Remoting.Channels.SocketHandler.ReadFromSocket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Runtime.Remoting.Channels.SocketHandler.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Runtime.Remoting.Channels.SocketHandler.ReadAndMatchFourBytes(Byte[] buffer)
+   at System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadAndMatchPreamble()
+   at System.Runtime.Remoting.Channels.Tcp.TcpSocketHandler.ReadVersionAndOperation(UInt16&amp; operation)
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientHandler.ReadHeaders()
+   at System.Runtime.Remoting.Channels.Ipc.IpcClientTransportSink.ProcessMessage(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream, ITransportHeaders&amp; responseHeaders, Stream&amp; responseStream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage(IMessage msg)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at Microsoft.VisualStudio.TestTools.Controller.IControllerExecution.StopTestRun(Guid testRunId)
+   at Microsoft.VisualStudio.TestTools.TestManagement.ControllerProxy.StopTestRunWorker(Object o)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-05-02T09:30:49.1223042+05:30" queuing="2010-05-02T09:30:57.1257198+05:30" start="2010-05-02T09:30:57.3441366+05:30" finish="2010-05-02T09:31:37.8292506+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestNumberOfConnections" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="9caf0e6b-06b4-df75-eb62-6d722e56e1d8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5500f628-34b4-4d75-8778-e49c319c546d" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestNumberOfConnections" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9caf0e6b-06b4-df75-eb62-6d722e56e1d8" executionId="96541ff4-58b1-4f57-9551-f2bb332f9ec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="96541ff4-58b1-4f57-9551-f2bb332f9ec8" testId="9caf0e6b-06b4-df75-eb62-6d722e56e1d8" testName="TestNumberOfConnections" computerName="CNK3T3J" duration="00:00:40.2666972" startTime="2010-05-02T09:30:57.5313510+05:30" endTime="2010-05-02T09:31:37.7980482+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

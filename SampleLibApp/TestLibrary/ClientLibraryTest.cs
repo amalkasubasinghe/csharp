@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using com.library.WCFClientAPI;
 using com.library.CommonClassLibrary;
 using System.Data.SqlClient;
+using System.Threading;
 
 
 namespace com.library.TestLibrary
@@ -365,7 +366,64 @@ namespace com.library.TestLibrary
 
         }
 
+        [TestMethod]
+        public void TestNumberOfConnections()
+        {
+            TestSetup();
+            //Create 10 new threads which add 100 books with known ids to database.
+            //check if database still have only 100 books.
+            Thread[] ta = new Thread[50];
+            for (int i = 0; i < ta.Length; i++)
+            {
+                ta[i] = new Thread(new ThreadStart(EntryPoint));
+                ta[i].Name = "Thread_" + i;
+
+            }
+
+            foreach (Thread t in ta)
+            {
+                t.Start();
+            }
+            Thread.Sleep(5000);
+            LibraryClient lc = new LibraryClient();
+            List<Book> books = lc.GetAllBooks();
+            Assert.AreEqual(10, books.Count);
+            Assert.AreEqual("1", lc.GetBook("1").Isbn);
+            Assert.AreEqual("9", lc.GetBook("9").Isbn);
+            Assert.IsTrue(count>0);
+        }
+
+        public static int count = 0;
+
+        public static void EntryPoint()
+        {
+          
+            LibraryClient lc = new LibraryClient();
+            string isbn;
+            string name;
+            string author;
+            string description;
+
+            for (int i = 0; i < 10; i++)
+            {
+                isbn = "" + i;
+                name = "name" + i;
+                author = "author" + i;
+                description = "description" + i;
+                try
+                {
+                    lc.AddNewBook(isbn, name, author, description);
+                }
+                catch (Exception) {
+                    count++; 
+                }
+
+            }
+            
+        }
+
+       
+      }
 
 
     }
-}

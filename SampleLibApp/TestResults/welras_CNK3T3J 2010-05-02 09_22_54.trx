@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8a87d74f-667c-4568-8ca8-e04edf144174" name="welras@CNK3T3J 2010-05-02 09:22:54" runUser="AD\welras" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\project\A_project\csharp\SampleLibApp\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\project\A_project\csharp\SampleLibApp\TestResults\welras_CNK3T3J 2010-05-02 09_22_54">
+      <DeploymentItem filename="C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:18.6376542+05:30">
+        <Text>One of the background threads threw exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.library.TestLibrary.ClientLibraryTest.EntryPoint() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 395
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:18.6376542+05:30">
+        <Text>One of the background threads threw exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.library.TestLibrary.ClientLibraryTest.EntryPoint() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 395
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:18.6376542+05:30">
+        <Text>One of the background threads threw exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.library.TestLibrary.ClientLibraryTest.EntryPoint() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 395
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:20.6346078+05:30">
+        <Text>One of the background threads threw exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.library.TestLibrary.ClientLibraryTest.EntryPoint() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 395
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:22.2103290+05:30">
+        <Text>One of the background threads threw exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.library.TestLibrary.ClientLibraryTest.EntryPoint() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 395
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:22.2103290+05:30">
+        <Text>One of the background threads threw exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.library.TestLibrary.ClientLibraryTest.EntryPoint() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 395
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:22.2103290+05:30">
+        <Text>One of the background threads threw exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at com.library.TestLibrary.ClientLibraryTest.EntryPoint() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 395
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</Text>
+      </RunInfo>
+      <RunInfo computerName="CNK3T3J" outcome="Error" timestamp="2010-05-02T09:23:48.7791726+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-05-02T09:22:54.3309846+05:30" queuing="2010-05-02T09:23:17.8263918+05:30" start="2010-05-02T09:23:18.0916122+05:30" finish="2010-05-02T09:23:48.7791726+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestNumberOfConnections" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="9caf0e6b-06b4-df75-eb62-6d722e56e1d8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5500f628-34b4-4d75-8778-e49c319c546d" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestNumberOfConnections" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9caf0e6b-06b4-df75-eb62-6d722e56e1d8" executionId="56362032-8366-47e4-a73f-c15beb0ab2a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="56362032-8366-47e4-a73f-c15beb0ab2a2" testId="9caf0e6b-06b4-df75-eb62-6d722e56e1d8" testName="TestNumberOfConnections" computerName="CNK3T3J" duration="00:00:30.5471496" startTime="2010-05-02T09:23:18.2320230+05:30" endTime="2010-05-02T09:23:48.7791726+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>
