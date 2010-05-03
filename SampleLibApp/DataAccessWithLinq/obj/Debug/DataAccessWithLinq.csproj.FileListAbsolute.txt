@@ -1,0 +1,9 @@
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\obj\Debug\ResolveAssemblyReference.cache
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\bin\Debug\DataAccessWithLinq.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\bin\Debug\DataAccessWithLinq.pdb
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\bin\Debug\ClassLibrary1.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\bin\Debug\DataAccess.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\bin\Debug\DataAccess.pdb
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\bin\Debug\ClassLibrary1.pdb
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\obj\Debug\DataAccessWithLinq.dll
+C:\project\A_project\csharp\SampleLibApp\DataAccessWithLinq\obj\Debug\DataAccessWithLinq.pdb

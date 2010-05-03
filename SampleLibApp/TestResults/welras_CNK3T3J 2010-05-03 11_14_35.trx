@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7de529d4-1170-4d8a-9b51-fd12db3324e8" name="welras@CNK3T3J 2010-05-03 11:14:35" runUser="AD\welras" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\project\A_project\csharp\SampleLibApp\TestResults\welras_CNK3T3J 2010-05-03 11_14_35">
+      <DeploymentItem filename="C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="2" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-05-03T11:14:35.7795810+05:30" queuing="2010-05-03T11:14:37.0107041+05:30" start="2010-05-03T11:14:37.0457076+05:30" finish="2010-05-03T11:15:09.8379865+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestReturnBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="0feeaf3f-d959-3a6e-efdd-513290355099">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a400aaa7-2eac-4393-b21e-bfd394fdd598" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestReturnBook" />
+    </UnitTest>
+    <UnitTest name="TestIssueBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="24caf18b-d15a-9cbd-a7ea-0362286e3684">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3b77ec4e-8d63-4a85-b549-45d751017457" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestIssueBook" />
+    </UnitTest>
+    <UnitTest name="TestSecurity" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="eba5e382-3e1b-4f74-910c-edc33274e8cf" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestSecurity" />
+    </UnitTest>
+    <UnitTest name="TestGetAllBooks" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="1f09df51-8cf8-a494-876e-a55e6dce8758">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="07cc388e-823a-4386-b2c3-1e8e608058d8" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestGetAllBooks" />
+    </UnitTest>
+    <UnitTest name="TestAddBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="a017d254-0a7a-55f4-39a1-86da40cafc66">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0b4e3be8-3227-464f-88cf-66a5878d55c4" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestAddBook" />
+    </UnitTest>
+    <UnitTest name="TestDeleteBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="cc8a21ea-bb6b-075e-4c80-2e51ce726453">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2117881b-26ff-46c5-bfb0-9490731349f7" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestDeleteBook" />
+    </UnitTest>
+    <UnitTest name="TestAddBookAsBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="65ae131f-0128-a6df-6103-70131bcb57b4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0531aa04-3dad-41f9-8b06-3b93cda2e62a" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestAddBookAsBook" />
+    </UnitTest>
+    <UnitTest name="TestLoad" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="aa40f25d-d3d7-9006-e6dd-709290e8899a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d88beb01-1cc2-4956-ae7f-f0891f7ab1e6" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestLoad" />
+    </UnitTest>
+    <UnitTest name="TestEditBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="3a30408c-09cf-598c-0f0d-3d0584d476ad">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="14252b10-8095-45a3-8cea-b5979d66cb3e" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestEditBook" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0feeaf3f-d959-3a6e-efdd-513290355099" executionId="a400aaa7-2eac-4393-b21e-bfd394fdd598" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93" executionId="eba5e382-3e1b-4f74-910c-edc33274e8cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f09df51-8cf8-a494-876e-a55e6dce8758" executionId="07cc388e-823a-4386-b2c3-1e8e608058d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24caf18b-d15a-9cbd-a7ea-0362286e3684" executionId="3b77ec4e-8d63-4a85-b549-45d751017457" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a30408c-09cf-598c-0f0d-3d0584d476ad" executionId="14252b10-8095-45a3-8cea-b5979d66cb3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65ae131f-0128-a6df-6103-70131bcb57b4" executionId="0531aa04-3dad-41f9-8b06-3b93cda2e62a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a017d254-0a7a-55f4-39a1-86da40cafc66" executionId="0b4e3be8-3227-464f-88cf-66a5878d55c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa40f25d-d3d7-9006-e6dd-709290e8899a" executionId="d88beb01-1cc2-4956-ae7f-f0891f7ab1e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc8a21ea-bb6b-075e-4c80-2e51ce726453" executionId="2117881b-26ff-46c5-bfb0-9490731349f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a400aaa7-2eac-4393-b21e-bfd394fdd598" testId="0feeaf3f-d959-3a6e-efdd-513290355099" testName="TestReturnBook" computerName="CNK3T3J" duration="00:00:00.1604133" startTime="2010-05-03T11:14:37.0467077+05:30" endTime="2010-05-03T11:14:37.2577288+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestReturnBook threw exception:  System.Exception: Wrong ISBN...!.</Message>
+          <StackTrace>    at com.library.WCFClientAPI.LibraryClient.IssueBook(String isbn, String empName) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 135
+   at com.library.TestLibrary.ClientLibraryTest.TestReturnBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 315
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eba5e382-3e1b-4f74-910c-edc33274e8cf" testId="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93" testName="TestSecurity" computerName="CNK3T3J" duration="00:00:00.0956012" startTime="2010-05-03T11:14:37.2587289+05:30" endTime="2010-05-03T11:14:37.3567387+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07cc388e-823a-4386-b2c3-1e8e608058d8" testId="1f09df51-8cf8-a494-876e-a55e6dce8758" testName="TestGetAllBooks" computerName="CNK3T3J" duration="00:00:00.0726663" startTime="2010-05-03T11:14:37.3567387+05:30" endTime="2010-05-03T11:14:37.4327463+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b77ec4e-8d63-4a85-b549-45d751017457" testId="24caf18b-d15a-9cbd-a7ea-0362286e3684" testName="TestIssueBook" computerName="CNK3T3J" duration="00:00:00.0765540" startTime="2010-05-03T11:14:37.4327463+05:30" endTime="2010-05-03T11:14:37.5117542+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestIssueBook threw exception:  System.Exception: Wrong ISBN...!.</Message>
+          <StackTrace>    at com.library.WCFClientAPI.LibraryClient.IssueBook(String isbn, String empName) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 135
+   at com.library.TestLibrary.ClientLibraryTest.TestIssueBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 262
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14252b10-8095-45a3-8cea-b5979d66cb3e" testId="3a30408c-09cf-598c-0f0d-3d0584d476ad" testName="TestEditBook" computerName="CNK3T3J" duration="00:00:00.0685807" startTime="2010-05-03T11:14:37.5127543+05:30" endTime="2010-05-03T11:14:37.5837614+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestEditBook threw exception:  System.Exception: Wrong ISBN...!.</Message>
+          <StackTrace>    at com.library.WCFClientAPI.LibraryClient.UpdateBook(String isbn, String name, String author, String description) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 95
+   at com.library.TestLibrary.ClientLibraryTest.TestEditBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0531aa04-3dad-41f9-8b06-3b93cda2e62a" testId="65ae131f-0128-a6df-6103-70131bcb57b4" testName="TestAddBookAsBook" computerName="CNK3T3J" duration="00:00:00.0406106" startTime="2010-05-03T11:14:37.5847615+05:30" endTime="2010-05-03T11:14:37.6277658+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestAddBookAsBook threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at com.library.TestLibrary.ClientLibraryTest.TestAddBookAsBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 104
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0b4e3be8-3227-464f-88cf-66a5878d55c4" testId="a017d254-0a7a-55f4-39a1-86da40cafc66" testName="TestAddBook" computerName="CNK3T3J" duration="00:00:00.0558602" startTime="2010-05-03T11:14:37.6287659+05:30" endTime="2010-05-03T11:14:37.6877718+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestAddBook threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at com.library.TestLibrary.ClientLibraryTest.TestAddBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 116
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d88beb01-1cc2-4956-ae7f-f0891f7ab1e6" testId="aa40f25d-d3d7-9006-e6dd-709290e8899a" testName="TestLoad" computerName="CNK3T3J" duration="00:00:31.5456083" startTime="2010-05-03T11:14:37.6877718+05:30" endTime="2010-05-03T11:15:09.2299257+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestLoad threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at com.library.TestLibrary.ClientLibraryTest.TestLoad() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 250
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2117881b-26ff-46c5-bfb0-9490731349f7" testId="cc8a21ea-bb6b-075e-4c80-2e51ce726453" testName="TestDeleteBook" computerName="CNK3T3J" duration="00:00:00.5972864" startTime="2010-05-03T11:15:09.2309258+05:30" endTime="2010-05-03T11:15:09.8299857+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestDeleteBook threw exception:  System.Exception: Wrong ISBN...!.</Message>
+          <StackTrace>    at com.library.WCFClientAPI.LibraryClient.DeleteBook(String isbn) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 121
+   at com.library.TestLibrary.ClientLibraryTest.TestDeleteBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 203
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

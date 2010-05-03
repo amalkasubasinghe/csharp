@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d46974ab-bb17-4351-b60b-3f974905fc60" name="welras@CNK3T3J 2010-05-03 11:44:10" runUser="AD\welras" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\project\A_project\csharp\SampleLibApp\TestResults\welras_CNK3T3J 2010-05-03 11_44_10">
+      <DeploymentItem filename="C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="7" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-05-03T11:44:10.2223540+05:30" queuing="2010-05-03T11:44:11.5952772+05:30" start="2010-05-03T11:44:11.6420814+05:30" finish="2010-05-03T11:44:46.4112820+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestReturnBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="0feeaf3f-d959-3a6e-efdd-513290355099">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="715757d8-0122-4bdb-82ab-e17b82e04664" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestReturnBook" />
+    </UnitTest>
+    <UnitTest name="TestIssueBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="24caf18b-d15a-9cbd-a7ea-0362286e3684">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="25617b3e-856b-43da-b7df-a9b558ae9750" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestIssueBook" />
+    </UnitTest>
+    <UnitTest name="TestSecurity" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4f76f50b-a0e6-43d1-ab81-962c16b15661" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestSecurity" />
+    </UnitTest>
+    <UnitTest name="TestGetAllBooks" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="1f09df51-8cf8-a494-876e-a55e6dce8758">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="45452fcf-9db2-4128-b7a3-dd0134348edd" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestGetAllBooks" />
+    </UnitTest>
+    <UnitTest name="TestAddBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="a017d254-0a7a-55f4-39a1-86da40cafc66">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b4ac350e-df94-4df1-8889-84f7cbd7ad55" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestAddBook" />
+    </UnitTest>
+    <UnitTest name="TestDeleteBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="cc8a21ea-bb6b-075e-4c80-2e51ce726453">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fde79ed3-3988-4e42-9bf9-cf39d411177a" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestDeleteBook" />
+    </UnitTest>
+    <UnitTest name="TestAddBookAsBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="65ae131f-0128-a6df-6103-70131bcb57b4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a6f276b1-55e5-4b3a-b816-fe5b70fe51ae" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestAddBookAsBook" />
+    </UnitTest>
+    <UnitTest name="TestLoad" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="aa40f25d-d3d7-9006-e6dd-709290e8899a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="07dab663-2f58-4e68-aac0-2617d8fa8812" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestLoad" />
+    </UnitTest>
+    <UnitTest name="TestEditBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="3a30408c-09cf-598c-0f0d-3d0584d476ad">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3e664f1c-5552-48b0-98e5-50121deeeac8" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestEditBook" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0feeaf3f-d959-3a6e-efdd-513290355099" executionId="715757d8-0122-4bdb-82ab-e17b82e04664" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93" executionId="4f76f50b-a0e6-43d1-ab81-962c16b15661" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f09df51-8cf8-a494-876e-a55e6dce8758" executionId="45452fcf-9db2-4128-b7a3-dd0134348edd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24caf18b-d15a-9cbd-a7ea-0362286e3684" executionId="25617b3e-856b-43da-b7df-a9b558ae9750" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a30408c-09cf-598c-0f0d-3d0584d476ad" executionId="3e664f1c-5552-48b0-98e5-50121deeeac8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65ae131f-0128-a6df-6103-70131bcb57b4" executionId="a6f276b1-55e5-4b3a-b816-fe5b70fe51ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a017d254-0a7a-55f4-39a1-86da40cafc66" executionId="b4ac350e-df94-4df1-8889-84f7cbd7ad55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa40f25d-d3d7-9006-e6dd-709290e8899a" executionId="07dab663-2f58-4e68-aac0-2617d8fa8812" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc8a21ea-bb6b-075e-4c80-2e51ce726453" executionId="fde79ed3-3988-4e42-9bf9-cf39d411177a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="715757d8-0122-4bdb-82ab-e17b82e04664" testId="0feeaf3f-d959-3a6e-efdd-513290355099" testName="TestReturnBook" computerName="CNK3T3J" duration="00:00:02.1331807" startTime="2010-05-03T11:44:11.6420814+05:30" endTime="2010-05-03T11:44:13.8082972+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at com.library.TestLibrary.ClientLibraryTest.TestReturnBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 315
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f76f50b-a0e6-43d1-ab81-962c16b15661" testId="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93" testName="TestSecurity" computerName="CNK3T3J" duration="00:00:00.0960401" startTime="2010-05-03T11:44:13.8092973+05:30" endTime="2010-05-03T11:44:13.9083072+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="45452fcf-9db2-4128-b7a3-dd0134348edd" testId="1f09df51-8cf8-a494-876e-a55e6dce8758" testName="TestGetAllBooks" computerName="CNK3T3J" duration="00:00:00.0729950" startTime="2010-05-03T11:44:13.9093073+05:30" endTime="2010-05-03T11:44:13.9843148+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25617b3e-856b-43da-b7df-a9b558ae9750" testId="24caf18b-d15a-9cbd-a7ea-0362286e3684" testName="TestIssueBook" computerName="CNK3T3J" duration="00:00:00.0921428" startTime="2010-05-03T11:44:13.9853149+05:30" endTime="2010-05-03T11:44:14.0843248+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at com.library.TestLibrary.ClientLibraryTest.TestIssueBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 262
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3e664f1c-5552-48b0-98e5-50121deeeac8" testId="3a30408c-09cf-598c-0f0d-3d0584d476ad" testName="TestEditBook" computerName="CNK3T3J" duration="00:00:00.1052702" startTime="2010-05-03T11:44:14.0853249+05:30" endTime="2010-05-03T11:44:14.1933357+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6f276b1-55e5-4b3a-b816-fe5b70fe51ae" testId="65ae131f-0128-a6df-6103-70131bcb57b4" testName="TestAddBookAsBook" computerName="CNK3T3J" duration="00:00:00.0376707" startTime="2010-05-03T11:44:14.1943358+05:30" endTime="2010-05-03T11:44:14.2343398+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b4ac350e-df94-4df1-8889-84f7cbd7ad55" testId="a017d254-0a7a-55f4-39a1-86da40cafc66" testName="TestAddBook" computerName="CNK3T3J" duration="00:00:00.1035102" startTime="2010-05-03T11:44:14.2353399+05:30" endTime="2010-05-03T11:44:14.3413505+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="07dab663-2f58-4e68-aac0-2617d8fa8812" testId="aa40f25d-d3d7-9006-e6dd-709290e8899a" testName="TestLoad" computerName="CNK3T3J" duration="00:00:31.7083922" startTime="2010-05-03T11:44:14.3423506+05:30" endTime="2010-05-03T11:44:46.0264745+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fde79ed3-3988-4e42-9bf9-cf39d411177a" testId="cc8a21ea-bb6b-075e-4c80-2e51ce726453" testName="TestDeleteBook" computerName="CNK3T3J" duration="00:00:00.3614007" startTime="2010-05-03T11:44:46.0274740+05:30" endTime="2010-05-03T11:44:46.3912920+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

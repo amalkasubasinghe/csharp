@@ -7,3 +7,5 @@ C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\ClassLibrary1.pdb
 C:\project\A_project\csharp\SampleLibApp\WCFServer\obj\Debug\ResolveAssemblyReference.cache
 C:\project\A_project\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.dll
 C:\project\A_project\csharp\SampleLibApp\WCFServer\obj\Debug\WCFServer.pdb
+C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\DataAccessWithLinq.dll
+C:\project\A_project\csharp\SampleLibApp\WCFServer\bin\Debug\DataAccessWithLinq.pdb

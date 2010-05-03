@@ -60,6 +60,10 @@
       <Project>{B1D444E6-C3D0-420A-96E4-73A2E51B3D2D}</Project>
       <Name>CommonClassLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\DataAccessWithLinq\DataAccessWithLinq.csproj">
+      <Project>{12E5C8AD-5B55-4CF5-93AA-1248D95A9B25}</Project>
+      <Name>DataAccessWithLinq</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{42EB4D38-35C4-4039-B6EE-79201CD7EC99}</Project>
       <Name>DataAccess</Name>

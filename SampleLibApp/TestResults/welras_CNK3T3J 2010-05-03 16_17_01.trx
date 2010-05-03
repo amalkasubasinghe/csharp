@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="65df6b98-1d23-4909-a01e-6f3143af9850" name="welras@CNK3T3J 2010-05-03 16:17:01" runUser="AD\welras" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b9a607c5-198a-483e-881f-484a0c7c0d45">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\project\A_project\csharp\SampleLibApp\TestResults\welras_CNK3T3J 2010-05-03 16_17_01">
+      <DeploymentItem filename="C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\bin\Debug\WCFClientAPI.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="10" executed="10" error="0" failed="3" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="6" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-05-03T16:17:01.6325320+05:30" queuing="2010-05-03T16:17:02.9586646+05:30" start="2010-05-03T16:17:03.0116699+05:30" finish="2010-05-03T16:21:13.0006663+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestReturnBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="0feeaf3f-d959-3a6e-efdd-513290355099">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f276a3f8-d64f-4b9d-b3c8-b0dfa7271e8c" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestReturnBook" />
+    </UnitTest>
+    <UnitTest name="TestIssueBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="24caf18b-d15a-9cbd-a7ea-0362286e3684">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6e72cdd9-d001-4f0b-88bf-63d13a76c368" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestIssueBook" />
+    </UnitTest>
+    <UnitTest name="TestSecurity" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fd919ff3-511a-41fc-a748-4c213d736bfc" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestSecurity" />
+    </UnitTest>
+    <UnitTest name="TestGetAllBooks" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="1f09df51-8cf8-a494-876e-a55e6dce8758">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7ba57802-fe07-446a-8f59-f313476bbe20" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestGetAllBooks" />
+    </UnitTest>
+    <UnitTest name="TestAddBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="a017d254-0a7a-55f4-39a1-86da40cafc66">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fe767893-4a78-47b7-a68b-1fe1e05a4b7e" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestAddBook" />
+    </UnitTest>
+    <UnitTest name="TestDeleteBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="cc8a21ea-bb6b-075e-4c80-2e51ce726453">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fdc2a3f4-4781-4ce4-9682-3b6543ceb180" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestDeleteBook" />
+    </UnitTest>
+    <UnitTest name="TestAddBookAsBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="65ae131f-0128-a6df-6103-70131bcb57b4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d4437b33-8d35-44a8-a367-5cfcc245bb3b" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestAddBookAsBook" />
+    </UnitTest>
+    <UnitTest name="TestLoad" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="aa40f25d-d3d7-9006-e6dd-709290e8899a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c52200df-2a80-4af2-816b-955e649ca7e7" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestLoad" />
+    </UnitTest>
+    <UnitTest name="TestNumberOfConnections" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="9caf0e6b-06b4-df75-eb62-6d722e56e1d8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6167f80e-f1ff-427d-b678-58c8a060aec4" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestNumberOfConnections" />
+    </UnitTest>
+    <UnitTest name="TestEditBook" storage="c:\project\a_project\csharp\samplelibapp\testlibrary\bin\debug\testlibrary.dll" id="3a30408c-09cf-598c-0f0d-3d0584d476ad">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="25078da2-9fc5-4227-9318-db351aa12361" />
+      <TestMethod codeBase="C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.library.TestLibrary.ClientLibraryTest, TestLibrary" name="TestEditBook" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0feeaf3f-d959-3a6e-efdd-513290355099" executionId="f276a3f8-d64f-4b9d-b3c8-b0dfa7271e8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93" executionId="fd919ff3-511a-41fc-a748-4c213d736bfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f09df51-8cf8-a494-876e-a55e6dce8758" executionId="7ba57802-fe07-446a-8f59-f313476bbe20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24caf18b-d15a-9cbd-a7ea-0362286e3684" executionId="6e72cdd9-d001-4f0b-88bf-63d13a76c368" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a30408c-09cf-598c-0f0d-3d0584d476ad" executionId="25078da2-9fc5-4227-9318-db351aa12361" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65ae131f-0128-a6df-6103-70131bcb57b4" executionId="d4437b33-8d35-44a8-a367-5cfcc245bb3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9caf0e6b-06b4-df75-eb62-6d722e56e1d8" executionId="6167f80e-f1ff-427d-b678-58c8a060aec4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a017d254-0a7a-55f4-39a1-86da40cafc66" executionId="fe767893-4a78-47b7-a68b-1fe1e05a4b7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa40f25d-d3d7-9006-e6dd-709290e8899a" executionId="c52200df-2a80-4af2-816b-955e649ca7e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc8a21ea-bb6b-075e-4c80-2e51ce726453" executionId="fdc2a3f4-4781-4ce4-9682-3b6543ceb180" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f276a3f8-d64f-4b9d-b3c8-b0dfa7271e8c" testId="0feeaf3f-d959-3a6e-efdd-513290355099" testName="TestReturnBook" computerName="CNK3T3J" duration="00:00:02.1174371" startTime="2010-05-03T16:17:03.0146702+05:30" endTime="2010-05-03T16:17:05.1808868+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd919ff3-511a-41fc-a748-4c213d736bfc" testId="1e673b12-b7d8-ebc0-50f9-a2fe0f313c93" testName="TestSecurity" computerName="CNK3T3J" duration="00:00:00.1538644" startTime="2010-05-03T16:17:05.1808868+05:30" endTime="2010-05-03T16:17:05.3379025+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7ba57802-fe07-446a-8f59-f313476bbe20" testId="1f09df51-8cf8-a494-876e-a55e6dce8758" testName="TestGetAllBooks" computerName="CNK3T3J" duration="00:00:00.1131645" startTime="2010-05-03T16:17:05.3389026+05:30" endTime="2010-05-03T16:17:05.4549142+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e72cdd9-d001-4f0b-88bf-63d13a76c368" testId="24caf18b-d15a-9cbd-a7ea-0362286e3684" testName="TestIssueBook" computerName="CNK3T3J" duration="00:00:00.1808337" startTime="2010-05-03T16:17:05.4549142+05:30" endTime="2010-05-03T16:17:05.6389326+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25078da2-9fc5-4227-9318-db351aa12361" testId="3a30408c-09cf-598c-0f0d-3d0584d476ad" testName="TestEditBook" computerName="CNK3T3J" duration="00:00:00.1357103" startTime="2010-05-03T16:17:05.6399327+05:30" endTime="2010-05-03T16:17:05.7779465+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d4437b33-8d35-44a8-a367-5cfcc245bb3b" testId="65ae131f-0128-a6df-6103-70131bcb57b4" testName="TestAddBookAsBook" computerName="CNK3T3J" duration="00:00:00.0596074" startTime="2010-05-03T16:17:05.7789466+05:30" endTime="2010-05-03T16:17:05.8399527+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="PassedButRunAborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6167f80e-f1ff-427d-b678-58c8a060aec4" testId="9caf0e6b-06b4-df75-eb62-6d722e56e1d8" testName="TestNumberOfConnections" computerName="CNK3T3J" duration="00:01:05.7408814" startTime="2010-05-03T16:17:05.8409528+05:30" endTime="2010-05-03T16:18:11.3985079+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestNumberOfConnections threw exception:  System.TimeoutException: The open operation did not complete within the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout. ---&gt;  System.TimeoutException: The socket transfer timed out after 00:00:59.9979998. You have exceeded the timeout set on your binding. The time allotted to this operation may have been a portion of a longer timeout. ---&gt;  System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.</Message>
+          <StackTrace>    at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.ServiceModel.Channels.SocketConnection.ReadCore(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout, Boolean closing)
+ --- End of inner exception stack trace ---
+    at System.ServiceModel.Channels.SocketConnection.ReadCore(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout, Boolean closing)
+   at System.ServiceModel.Channels.SocketConnection.Read(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout)
+   at System.ServiceModel.Channels.DelegatingConnection.Read(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.SendPreamble(IConnection connection, ArraySegment`1 preamble, TimeoutHelper&amp; timeoutHelper)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.DuplexConnectionPoolHelper.AcceptPooledConnection(IConnection connection, TimeoutHelper&amp; timeoutHelper)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+ --- End of inner exception stack trace ---
+ 
+Server stack trace: 
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ILibraryService.GetAllBooks()
+   at LibraryServiceClient.GetAllBooks() in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryService.cs:line 192
+   at com.library.WCFClientAPI.LibraryClient.GetAllBooks() in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 35
+   at com.library.TestLibrary.ClientLibraryTest.TestNumberOfConnections() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 392
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe767893-4a78-47b7-a68b-1fe1e05a4b7e" testId="a017d254-0a7a-55f4-39a1-86da40cafc66" testName="TestAddBook" computerName="CNK3T3J" duration="00:01:00.7296472" startTime="2010-05-03T16:18:11.3995080+05:30" endTime="2010-05-03T16:19:11.9255600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestAddBook threw exception:  System.TimeoutException: The open operation did not complete within the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout. ---&gt;  System.TimeoutException: The socket transfer timed out after 00:00:59.9979998. You have exceeded the timeout set on your binding. The time allotted to this operation may have been a portion of a longer timeout. ---&gt;  System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.</Message>
+          <StackTrace>    at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.ServiceModel.Channels.SocketConnection.ReadCore(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout, Boolean closing)
+ --- End of inner exception stack trace ---
+    at System.ServiceModel.Channels.SocketConnection.ReadCore(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout, Boolean closing)
+   at System.ServiceModel.Channels.SocketConnection.Read(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout)
+   at System.ServiceModel.Channels.DelegatingConnection.Read(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.SendPreamble(IConnection connection, ArraySegment`1 preamble, TimeoutHelper&amp; timeoutHelper)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.DuplexConnectionPoolHelper.AcceptPooledConnection(IConnection connection, TimeoutHelper&amp; timeoutHelper)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+ --- End of inner exception stack trace ---
+ 
+Server stack trace: 
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ILibraryService.GetBook(String isbn)
+   at LibraryServiceClient.GetBook(String isbn) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryService.cs:line 197
+   at com.library.WCFClientAPI.LibraryClient.AddNewBook(String isbn, String name, String author, String description) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 52
+   at com.library.TestLibrary.ClientLibraryTest.TestAddBook() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c52200df-2a80-4af2-816b-955e649ca7e7" testId="aa40f25d-d3d7-9006-e6dd-709290e8899a" testName="TestLoad" computerName="CNK3T3J" duration="00:01:00.7119885" startTime="2010-05-03T16:19:11.9265601+05:30" endTime="2010-05-03T16:20:12.4546123+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method com.library.TestLibrary.ClientLibraryTest.TestLoad threw exception:  System.TimeoutException: The open operation did not complete within the allotted timeout of 00:01:00. The time allotted to this operation may have been a portion of a longer timeout. ---&gt;  System.TimeoutException: The socket transfer timed out after 00:00:59.9989999. You have exceeded the timeout set on your binding. The time allotted to this operation may have been a portion of a longer timeout. ---&gt;  System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.</Message>
+          <StackTrace>    at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.ServiceModel.Channels.SocketConnection.ReadCore(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout, Boolean closing)
+ --- End of inner exception stack trace ---
+    at System.ServiceModel.Channels.SocketConnection.ReadCore(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout, Boolean closing)
+   at System.ServiceModel.Channels.SocketConnection.Read(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout)
+   at System.ServiceModel.Channels.DelegatingConnection.Read(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.SendPreamble(IConnection connection, ArraySegment`1 preamble, TimeoutHelper&amp; timeoutHelper)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.DuplexConnectionPoolHelper.AcceptPooledConnection(IConnection connection, TimeoutHelper&amp; timeoutHelper)
+   at System.ServiceModel.Channels.ConnectionPoolHelper.EstablishConnection(TimeSpan timeout)
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+ --- End of inner exception stack trace ---
+ 
+Server stack trace: 
+   at System.ServiceModel.Channels.ClientFramingDuplexSessionChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOpenOnce.System.ServiceModel.Channels.ServiceChannel.ICallOnce.Call(ServiceChannel channel, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.CallOnceManager.CallOnce(TimeSpan timeout, CallOnceManager cascade)
+   at System.ServiceModel.Channels.ServiceChannel.EnsureOpened(TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at ILibraryService.GetBook(String isbn)
+   at LibraryServiceClient.GetBook(String isbn) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryService.cs:line 197
+   at com.library.WCFClientAPI.LibraryClient.AddNewBook(String isbn, String name, String author, String description) in C:\project\A_project\csharp\SampleLibApp\WCFClientAPI\LibraryClient.cs:line 52
+   at com.library.TestLibrary.ClientLibraryTest.TestLoad() in C:\project\A_project\csharp\SampleLibApp\TestLibrary\ClientLibraryTest.cs:line 231
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fdc2a3f4-4781-4ce4-9682-3b6543ceb180" testId="cc8a21ea-bb6b-075e-4c80-2e51ce726453" testName="TestDeleteBook" computerName="CNK3T3J" duration="00:00:47.5727568" startTime="2010-05-03T16:20:12.4626131+05:30" endTime="2010-05-03T16:21:00.0353699+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
