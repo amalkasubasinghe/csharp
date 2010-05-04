@@ -100,4 +100,12 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>del $(SolutionDir)\..\installASPClient\CSTLIB\bin\*.dll
+del $(SolutionDir)\..\installASPClient\CSTLIBClient\Default.aspx
+del $(SolutionDir)\..\installASPClient\CSTLIBClient\web.config
+copy $(ProjectDir)$(OutDir)*.dll $(SolutionDir)\..\installASPClient\CSTLIBClient\bin
+copy $(ProjectDir)\Default.aspx $(SolutionDir)\..\installASPClient\CSTLIBClient
+copy $(ProjectDir)web.config $(SolutionDir)\..\installASPClient\CSTLIBClient</PostBuildEvent>
+  </PropertyGroup>
 </Project>
