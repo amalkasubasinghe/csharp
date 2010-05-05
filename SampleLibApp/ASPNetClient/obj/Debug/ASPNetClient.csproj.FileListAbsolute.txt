@@ -5,3 +5,10 @@ C:\project\A_project\csharp\SampleLibApp\ASPNetClient\bin\WCFClientAPI.pdb
 C:\project\A_project\csharp\SampleLibApp\ASPNetClient\obj\Debug\ResolveAssemblyReference.cache
 C:\project\A_project\csharp\SampleLibApp\ASPNetClient\obj\Debug\ASPNetClient.dll
 C:\project\A_project\csharp\SampleLibApp\ASPNetClient\obj\Debug\ASPNetClient.pdb
+D:\csharp-handson\rasika6\csharp\SampleLibApp\ASPNetClient\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\rasika6\csharp\SampleLibApp\ASPNetClient\bin\ASPNetClient.dll
+D:\csharp-handson\rasika6\csharp\SampleLibApp\ASPNetClient\bin\ASPNetClient.pdb
+D:\csharp-handson\rasika6\csharp\SampleLibApp\ASPNetClient\bin\WCFClientAPI.dll
+D:\csharp-handson\rasika6\csharp\SampleLibApp\ASPNetClient\bin\WCFClientAPI.pdb
+D:\csharp-handson\rasika6\csharp\SampleLibApp\ASPNetClient\obj\Debug\ASPNetClient.dll
+D:\csharp-handson\rasika6\csharp\SampleLibApp\ASPNetClient\obj\Debug\ASPNetClient.pdb

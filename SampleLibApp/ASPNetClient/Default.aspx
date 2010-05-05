@@ -8,13 +8,6 @@
 </head>
 <body>
 
-<%
-
-    //foreach (string item in names)
-    //{
-    //    Response.Write(item);
-    //}
-     %>
     <h1>Library</h1>
     
     <table border="1" width="100%">
@@ -30,23 +23,12 @@
             <th>Borrowed Date</th>                        
         </tr>   
             
-        <tr> 
-                   
-            <td></td>
-            <td>asdasd</td>
-            <td>asdasdas</td>  
-            <td>jdkj</td>  
-            <td>Amalka Subasinghe</td>
-            <td>2010-04-08</td>                        
-        </tr> 
-        <tr>            
-            <td>ISBN8389202</td>
-            <td>Struts In Action</td>   
-            <td>Author</td>  
-            <td>Description</td>           
-            <td></td>
-            <td></td>                        
-        </tr> 
+        <%
+            foreach (String row in rows)
+            {
+                Response.Write(row);
+            }
+        %> 
         </table>   
     </td>
     <td>

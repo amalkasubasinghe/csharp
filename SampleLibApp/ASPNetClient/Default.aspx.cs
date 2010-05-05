@@ -12,19 +12,33 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
 using com.library.WCFClientAPI;
+using com.library.CommonClassLibrary;
+using System.Text;
 
 namespace com.library.ASPNetClient
 {
     public partial class _Default : System.Web.UI.Page
     {
-        public List<string> names;
+        public List<string> rows;
         protected void Page_Load(object sender, EventArgs e)
         {
-            names = new List<string>();
-            names.Add("amalka");
-            names.Add("nadee");
-            names.Add("suba");
-            names.Add("manu");
+            LibraryClient lc = new LibraryClient();
+            List<Book> books = lc.GetAllBooks();
+
+            rows = new List<string>();
+            foreach (Book book in books)
+            {
+                StringBuilder builder = new StringBuilder();
+                builder.Append("<tr><td>").Append(book.Isbn).Append("</td><td>")
+                    .Append(book.Name).Append("</td><td>")
+                    .Append(book.Author).Append("</td><td>")
+                    .Append(book.Description).Append("</td><td>")
+                    .Append(book.Borrowed_by).Append("</td><td>")
+                    .Append(book.Borrowed_date).Append("</td><tr>");
+
+                rows.Add(builder.ToString());
+            }            
+
             
         }
 
@@ -69,6 +83,7 @@ namespace com.library.ASPNetClient
                     return;
                 }
                 lblBookMessage.Text = "Book Added Successfully...!";
+                Page_Load(sender, e);
             }
         }
 
@@ -86,6 +101,7 @@ namespace com.library.ASPNetClient
                     lblBookMessage.Text = ex.Message;
                 }
                 lblBookMessage.Text = "Book Updated Successfully...!";
+                Page_Load(sender, e);
             }
         }
 
@@ -103,6 +119,7 @@ namespace com.library.ASPNetClient
                     lblBookMessage.Text = ex.Message;
                 }
                 lblBookMessage.Text = "Book Deleted Successfully...!";
+                Page_Load(sender, e);
             }
         }
 
@@ -120,6 +137,7 @@ namespace com.library.ASPNetClient
                     lblIssueMessage.Text = ex.Message;
                 }
                 lblIssueMessage.Text = "Book Issued Successfully...!";
+                Page_Load(sender, e);
             }
         }
 
@@ -137,6 +155,7 @@ namespace com.library.ASPNetClient
                     lblIssueMessage.Text = ex.Message;
                 }
                 lblIssueMessage.Text = "Book Returned Successfully...!";
+                Page_Load(sender, e);
             }
         }
 
