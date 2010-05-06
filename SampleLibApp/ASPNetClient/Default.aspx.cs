@@ -20,9 +20,9 @@ namespace com.library.ASPNetClient
     public partial class _Default : System.Web.UI.Page
     {
         public List<string> rows;
+        LibraryClient lc;
         protected void Page_Load(object sender, EventArgs e)
         {
-            LibraryClient lc = new LibraryClient();
             List<Book> books = lc.GetAllBooks();
 
             rows = new List<string>();
@@ -58,6 +58,7 @@ namespace com.library.ASPNetClient
         /// </summary>
         private void InitializeComponent()
         {
+            lc = new LibraryClient();
             this.cmdAdd.Click += new System.EventHandler(this.cmdAdd_Click);
             this.cmdUpdate.Click += new System.EventHandler(this.cmdUpdate_Click);
             this.cmdDelete.Click += new System.EventHandler(this.cmdDelete_Click);
@@ -74,7 +75,6 @@ namespace com.library.ASPNetClient
             {
                 try
                 {
-                    LibraryClient lc = new LibraryClient();
                     lc.AddNewBook(txtIsbn.Text, txtName.Text, txtAuthor.Text, txtDescription.Text);                   
                 }
                 catch(Exception ex)                
@@ -93,7 +93,6 @@ namespace com.library.ASPNetClient
             {
                 try
                 {
-                    LibraryClient lc = new LibraryClient();
                     lc.UpdateBook(txtIsbn.Text, txtName.Text, txtAuthor.Text, txtDescription.Text);
                 }
                 catch (Exception ex)
@@ -111,7 +110,6 @@ namespace com.library.ASPNetClient
             {
                 try
                 {
-                    LibraryClient lc = new LibraryClient();
                     lc.DeleteBook(txtIsbn.Text);
                 }
                 catch (Exception ex)
@@ -129,7 +127,6 @@ namespace com.library.ASPNetClient
             {
                 try
                 {
-                    LibraryClient lc = new LibraryClient();
                     lc.IssueBook(txtIssueIsbn.Text, txtEmpName.Text);
                 }
                 catch (Exception ex)
@@ -147,7 +144,6 @@ namespace com.library.ASPNetClient
             {
                 try
                 {
-                    LibraryClient lc = new LibraryClient();
                     lc.ReturnBook(txtIssueIsbn.Text);
                 }
                 catch (Exception ex)

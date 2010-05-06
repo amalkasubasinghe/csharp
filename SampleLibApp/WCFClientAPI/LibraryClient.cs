@@ -31,12 +31,7 @@ namespace com.library.WCFClientAPI
         }
         public List<Book> GetAllBooks()
         {
-            List<Book> books = new List<Book>();
-            foreach(Book book in ls.GetAllBooks())
-            {
-                books.Add(book);
-            }
-            return books;
+            return ls.GetAllBooks().ToList();
         }
 
         public Book GetBook(string isbn)
