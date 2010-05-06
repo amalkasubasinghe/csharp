@@ -25,3 +25,10 @@ D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.
 D:\csharp-handson\rasika2\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.pdb
 C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\WCFClientAPI.dll
 C:\project\A_project\csharp\SampleLibApp\TestLibrary\bin\Debug\WCFClientAPI.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\TestLibrary\bin\Debug\TestLibrary.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\TestLibrary\bin\Debug\WCFClientAPI.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\TestLibrary\bin\Debug\WCFClientAPI.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\TestLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\rasika7\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\TestLibrary\obj\Debug\TestLibrary.pdb

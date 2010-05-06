@@ -98,6 +98,7 @@ namespace com.library.ASPNetClient
                 catch (Exception ex)
                 {
                     lblBookMessage.Text = ex.Message;
+                    return;
                 }
                 lblBookMessage.Text = "Book Updated Successfully...!";
                 Page_Load(sender, e);
@@ -115,6 +116,7 @@ namespace com.library.ASPNetClient
                 catch (Exception ex)
                 {
                     lblBookMessage.Text = ex.Message;
+                    return;
                 }
                 lblBookMessage.Text = "Book Deleted Successfully...!";
                 Page_Load(sender, e);
@@ -132,6 +134,7 @@ namespace com.library.ASPNetClient
                 catch (Exception ex)
                 {
                     lblIssueMessage.Text = ex.Message;
+                    return;
                 }
                 lblIssueMessage.Text = "Book Issued Successfully...!";
                 Page_Load(sender, e);
@@ -149,6 +152,7 @@ namespace com.library.ASPNetClient
                 catch (Exception ex)
                 {
                     lblIssueMessage.Text = ex.Message;
+                    return;
                 }
                 lblIssueMessage.Text = "Book Returned Successfully...!";
                 Page_Load(sender, e);

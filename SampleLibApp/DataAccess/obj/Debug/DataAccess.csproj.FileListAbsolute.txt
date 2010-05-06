@@ -30,3 +30,11 @@ D:\csharp-handson\rasika6\csharp\SampleLibApp\DataAccess\bin\Debug\ClassLibrary1
 D:\csharp-handson\rasika6\csharp\SampleLibApp\DataAccess\obj\Debug\ResolveAssemblyReference.cache
 D:\csharp-handson\rasika6\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.dll
 D:\csharp-handson\rasika6\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.dll.config
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\bin\Debug\DataAccess.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\bin\Debug\ClassLibrary1.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\bin\Debug\ClassLibrary1.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\DataAccess\obj\Debug\DataAccess.pdb

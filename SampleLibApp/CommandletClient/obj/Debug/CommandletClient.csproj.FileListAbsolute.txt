@@ -5,3 +5,10 @@ C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI.pdb
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.dll
 C:\project\A_project\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\CommandletClient\bin\Debug\CommandletClient.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\CommandletClient\bin\Debug\WCFClientAPI.pdb
+D:\csharp-handson\rasika7\csharp\SampleLibApp\CommandletClient\obj\Debug\ResolveAssemblyReference.cache
+D:\csharp-handson\rasika7\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.dll
+D:\csharp-handson\rasika7\csharp\SampleLibApp\CommandletClient\obj\Debug\CommandletClient.pdb
