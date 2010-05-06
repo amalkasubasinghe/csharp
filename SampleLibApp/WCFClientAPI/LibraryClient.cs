@@ -167,15 +167,17 @@ namespace com.library.WCFClientAPI
             {
                 try
                 {
-                    ls.Close();
+                    if ((ls.State != CommunicationState.Faulted) && (ls.State != CommunicationState.Closed))
+                    {
+                        ls.Close();
+                    }
                 }
                 catch (Exception)
                 {
+                    ls.Abort();
                 }
-                finally
-                {
-                    ls = null;
-                }
+
+
             }
         }
 
