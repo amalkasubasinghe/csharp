@@ -18,8 +18,23 @@ Remove-Book
 Lend-Book
 Return-Book
 
+
+Kwown Issues and workarounds.
+==============================
+1. The .net diagnostic logging is implemented in DataAccessWithLinq project. This is using the diagnostic configuration in  WCFServer/web.config file(this is in WCFServer project). logging service will create a log file "log.txt" in your C:\ drive if logging is enabled. You can't delete this file unless you stop the IIS server and kill the w3wp.exe process. 
+
+2. The WCF Clients(powershellclient and ASP.NET client) will not run properly if installed remote to WCFServer.
+This is because the server endpoint is hardcoded inside the client.
+
+3. PowerShell client is not allowed to add books with empty strings for name,author and description
+
+4. There are more......
+
+
+
+
 The WCF interface(v.2.0)
-==============
+=============================
 AddBook(Book):boolean
 UpdateBook(Book):boolean
 DeleteBook(String id):boolean
@@ -32,15 +47,6 @@ returnBook(string bookId):boolean
 Table structure(2.0)
 ===============
 book(id, name, author, description, emp_name, borrowed_date, returned_date)
-
-Kwown Issues.
-=============
-1. The WCF Clients(powershellclient and ASP.NET client) will not run properly if installed remote to WCFServer.
-This is because the server endpoint is hardcoded inside the client.
-
-2. PowerShell client is not allowed to add books with empty strings for name,author and description
-
-3. There are more......
 
 
 

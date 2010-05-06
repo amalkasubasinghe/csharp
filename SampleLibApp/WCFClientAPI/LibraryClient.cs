@@ -174,10 +174,12 @@ namespace com.library.WCFClientAPI
                 }
                 catch (Exception)
                 {
-                    ls.Abort();
+                    try
+                    {
+                        ls.Abort();
+                    }
+                    catch (Exception) { }
                 }
-
-
             }
         }
 
